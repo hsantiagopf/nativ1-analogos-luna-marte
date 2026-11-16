@@ -1,0 +1,10 @@
+{
+ "body": "mars",
+ "width": 2048,
+ "height": 1024,
+ "projection": "equirectangular (simple cylindrical)",
+ "elev_min_m": -8149.8,
+ "elev_max_m": 21137.5,
+ "radius_m": 3389500.0,
+ "source": "https://planetarymaps.usgs.gov/mosaic/Mars_MGS_MOLA_DEM_mosaic_global_463m.tif"
+}

@@ -1,0 +1,65 @@
+# ==============================================================================
+# netlify.toml — Configuración de producción para NASA Space Apps 2026
+# ==============================================================================
+
+[build]
+  base = "frontend"
+  publish = "dist"
+  command = "npm run build"
+
+[build.environment]
+  NODE_VERSION = "20"
+  NPM_FLAGS = "--legacy-peer-deps"
+
+# ------------------------------------------------------------------------------
+# Contexto de Producción (rama principal)
+# ------------------------------------------------------------------------------
+[context.production]
+  command = "npm run build"
+
+# ------------------------------------------------------------------------------
+# Contexto de Deploy Previews (Pull Requests de colaboradores)
+# ------------------------------------------------------------------------------
+[context.deploy-preview]
+  command = "npm run build"
+
+# ------------------------------------------------------------------------------
+# Reglas de Redirección y Reescritura para SPA (Single Page Application)
+# ------------------------------------------------------------------------------
+# Esencial para evitar errores 404 cuando el usuario o un juez recarga
+# rutas profundas de la aplicación (ej: /moon, /mars, /analisis/antofalla).
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
+
+# ------------------------------------------------------------------------------
+# Cabeceras de Seguridad y Optimización de Caché (HTTP Security & Caching)
+# ------------------------------------------------------------------------------
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Frame-Options = "DENY"
+    X-Content-Type-Options = "nosniff"
+    X-XSS-Protection = "1; mode=block"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+    Permissions-Policy = "camera=(), microphone=(), geolocation=()"
+
+# Cache-Control estricto para index.html (revalidación inmediata para nuevos despliegues)
+[[headers]]
+  for = "/index.html"
+  [headers.values]
+    Cache-Control = "public, max-age=0, must-revalidate"
+
+# Cache-Control inmutable para assets versionados por hash de Vite (1 año)
+[[headers]]
+  for = "/assets/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+# Cache-Control para datasets JSON y mapas estáticos
+[[headers]]
+  for = "/*.json"
+  [headers.values]
+    Cache-Control = "public, max-age=3600, stale-while-revalidate=86400"
+    Access-Control-Allow-Origin = "*"

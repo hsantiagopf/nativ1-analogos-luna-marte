@@ -1,0 +1,10 @@
+# Perfil mineral de superficie de los sitios de referencia de Marte (0-1 = presencia relativa).
+# Base: espectroscopia CRISM/OMEGA + rovers (literatura revisada por pares), sitios muy estudiados.
+# Ejes comparables con Tierra (Sentinel-2) y Luna (Kaguya). ferric_oxide = oxidos ferricos (Fe3+);
+# sulfate = sulfatos/evaporitas; clay = filosilicatos/arcillas; mafic = olivino+piroxeno/basalto; carbonate = carbonatos.
+# Jezero: arcillas Fe/Mg + carbonatos de Mg + olivino (delta lacustre). Gale: esmectita (arcillas) y
+# sulfatos en Mt Sharp, cresta de hematita (Vera Rubin). Meridiani: hematita gris cristalina + jarosita/sulfatos.
+site_id,min_ferric_oxide,min_sulfate,min_clay,min_mafic,min_carbonate,mineral_source
+MARS_JEZERO,0.70,0.20,0.80,0.70,0.70,CRISM_rover_literatura
+MARS_GALE,0.80,0.70,0.70,0.60,0.10,CRISM_rover_literatura
+MARS_MERID,0.90,0.90,0.10,0.60,0.00,TES_rover_literatura

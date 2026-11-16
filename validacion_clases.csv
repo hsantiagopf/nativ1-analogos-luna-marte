@@ -1,0 +1,21 @@
+# Fase 6 - Validacion con clases de terreno lunar documentadas. ARCHIVO CONGELADO el 15-nov antes de calcular
+# cualquier distancia de estos sitios. NO MODIFICAR despues de correr validate_classes.py.
+# Clase: mares por nombre IAU; tierras altas en zonas de terra. Confirmada con FeO de Kaguya MI (mediana en ~15 km):
+#   mar >= 14 % FeO, tierras altas <= 8 % FeO (rangos aproximados de literatura). Ver LOG_TRABAJO.md, Fase 6.
+# MOON_TRANQ ya estaba en el proyecto (referencia); su FeO viene de moon_minerals.csv (punto, no ventana).
+# PREDICCIONES CONGELADAS:
+#   P1 (agrupamiento): con pesos desconocidos entre escalas (uniformes en el simplex), el vecino mas cercano de
+#      cada sitio es de su misma clase con probabilidad media mayor que el azar.
+#   P2 (escala, Kreslavsky EPSC-DPS 2011 / Icarus 2013): la razon (distancia media entre clases / distancia media
+#      dentro de clase) es mayor a 3186 m que a 118 m.
+# Si una prediccion falla se reporta tal cual; no se ajusta nada del modelo para que pase.
+site_id,clase,lat,lon,fuente_clase,feo_wt_pct
+MARE_SERENITATIS,mar,28.0,17.5,IAU Mare Serenitatis + FeO Kaguya,15.8
+MARE_IMBRIUM,mar,33.0,-16.0,IAU Mare Imbrium + FeO Kaguya,15.6
+MARE_CRISIUM,mar,17.0,59.1,IAU Mare Crisium + FeO Kaguya,16.9
+MARE_FECUNDITATIS,mar,-8.0,51.0,IAU Mare Fecunditatis + FeO Kaguya,17.7
+MOON_TRANQ,mar,0.67,23.47,IAU Mare Tranquillitatis + FeO Kaguya,17.59
+TERRA_FARSIDE_A,tierras_altas,10.0,170.0,terra de la cara oculta + FeO Kaguya,3.8
+TERRA_FARSIDE_B,tierras_altas,-5.0,-150.0,terra de la cara oculta + FeO Kaguya,4.9
+TERRA_NEARSIDE_SUR,tierras_altas,-30.0,5.0,terra del sur de la cara visible + FeO Kaguya,5.4
+TERRA_FARSIDE_C,tierras_altas,20.0,-165.0,terra de la cara oculta + FeO Kaguya,5.0

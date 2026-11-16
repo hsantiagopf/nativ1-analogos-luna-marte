@@ -1,0 +1,9 @@
+# Inercia termica lunar (J m^-2 K^-1 s^-1/2, referida a 273 K) en los sitios de referencia.
+# Fuente: Diviner / Hayne et al. 2017, mapa TI 273K a 10 ppd (~3 km). Muestreo del vecino mas cercano.
+# Repositorio: SharePoint CU Boulder (paha3326), carpeta hpar, lon-lat-ti273k_10ppd.txt.
+# La Luna tiene TI muy baja y uniforme (regolito fino en vacio): contrasta con Marte (169-253).
+site_id,thermal_inertia
+MOON_A15,54.54
+MOON_A17,57.47
+MOON_TRANQ,55.21
+MOON_ARIS,55.70

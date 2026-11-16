@@ -1,0 +1,9 @@
+# Perfiles de mision SIN PESOS (Fase 1). Cada perfil = (a) que dimensiones entran al analisis SMAA y (b) que requisito citado de requisitos.csv se evalua.
+# Los pesos entre dimensiones se tratan como desconocidos dentro de SMAA (Fase 4). Donde no hay requisito aplicable a nuestra resolucion, se reporta el valor medido y se dice "no demostrado".
+perfil,cuerpo,dimensiones,requisitos_evaluados,como_se_reporta,limite
+general,MOON y MARS,"topografia, rugosidad, termica, mineralogia",ninguno,solo parecido por dimension,sin requisito de mision
+aterrizaje,MOON,"topografia, rugosidad","R01 (pendiente < 10 grados a 100 m); R03 (<= 5 grados en >= 25 % del area)","fraccion del area que cumple R01; cumple/no cumple R03","nuestra pendiente es a 118 m, no a 100 m; R03 se evalua sobre la ventana de 30 km, no sobre un circulo de 2 km"
+aterrizaje,MARS,"topografia, rugosidad",ninguno aplicable (R05 es a 2 m y 84 m),solo parecido por dimension; requisito no demostrado,resolucion de 463 m insuficiente para requisitos de aterrizaje en Marte
+movilidad,MOON,"topografia, rugosidad, termica",R04 (pendiente <= 15 grados); R02 (< 20 grados para caminata),fraccion del area que cumple R04 y R02,el resumen de R04 no indica la escala de medicion
+movilidad,MARS,"topografia, rugosidad, termica",ninguno aplicable (R06 es a escala de metros y depende del material),solo parecido por dimension; requisito no demostrado,resolucion de 463 m insuficiente
+recursos_in_situ,MOON y MARS,"mineralogia, termica",ninguno,solo parecido por dimension,la mineralogia de Marte es de literatura; en la Luna varios ejes valen 0

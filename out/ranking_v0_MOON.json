@@ -1,0 +1,434 @@
+{
+  "target_body": "MOON",
+  "excluded_by_aridity": [],
+  "references": [
+    {
+      "ref_site_id": "MOON_A15",
+      "ref_name": "Apollo 15 Hadley Rille",
+      "ref_thermal_inertia": 54.54,
+      "top_k": [
+        {
+          "site_id": "EARTH_ANTOFALLA",
+          "name": "Puna - Antofalla (AR)",
+          "score_global": 88.3,
+          "scores": {
+            "topografia": 94.0,
+            "rugosidad": 90.8,
+            "inercia_termica": 89.8,
+            "mineralogia": 78.4
+          },
+          "strongest_matches": [
+            "topografia (94%)",
+            "rugosidad (91%)"
+          ],
+          "where_it_breaks_down": [
+            "ninguna dimension < 60%",
+            "La Luna no tiene atmosfera (vacio), su gravedad es 1/6 g y su regolito es polvo fino sin oxidacion ni agua: la mineralogia hidratada/oxidada y el ambiente termico extremo no se reproducen en la Tierra."
+          ],
+          "mission_utility": "ensayo de aterrizaje y seleccion de zona segura; pruebas de movilidad y traccion de rovers"
+        },
+        {
+          "site_id": "EARTH_NAMIB",
+          "name": "Namib - Sossusvlei (NA)",
+          "score_global": 81.9,
+          "scores": {
+            "topografia": 83.2,
+            "rugosidad": 69.6,
+            "inercia_termica": 94.3,
+            "mineralogia": 80.5
+          },
+          "strongest_matches": [
+            "inercia_termica (94%)",
+            "topografia (83%)"
+          ],
+          "where_it_breaks_down": [
+            "ninguna dimension < 60%",
+            "La Luna no tiene atmosfera (vacio), su gravedad es 1/6 g y su regolito es polvo fino sin oxidacion ni agua: la mineralogia hidratada/oxidada y el ambiente termico extremo no se reproducen en la Tierra."
+          ],
+          "mission_utility": "manejo de regolito/polvo y diseno termico de habitats; ensayo de aterrizaje y seleccion de zona segura"
+        },
+        {
+          "site_id": "EARTH_TATACOA",
+          "name": "Desierto de la Tatacoa (CO)",
+          "score_global": 79.6,
+          "scores": {
+            "topografia": 75.5,
+            "rugosidad": 76.9,
+            "inercia_termica": 79.0,
+            "mineralogia": 87.0
+          },
+          "strongest_matches": [
+            "mineralogia (87%)",
+            "inercia_termica (79%)"
+          ],
+          "where_it_breaks_down": [
+            "ninguna dimension < 60%",
+            "La Luna no tiene atmosfera (vacio), su gravedad es 1/6 g y su regolito es polvo fino sin oxidacion ni agua: la mineralogia hidratada/oxidada y el ambiente termico extremo no se reproducen en la Tierra."
+          ],
+          "mission_utility": "calibracion de instrumentos y prospeccion de recursos (ISRU); manejo de regolito/polvo y diseno termico de habitats"
+        },
+        {
+          "site_id": "EARTH_GUAJIRA",
+          "name": "Alta Guajira interior arida (CO)",
+          "score_global": 75.3,
+          "scores": {
+            "topografia": 71.6,
+            "rugosidad": 76.0,
+            "inercia_termica": 87.2,
+            "mineralogia": 66.3
+          },
+          "strongest_matches": [
+            "inercia_termica (87%)",
+            "rugosidad (76%)"
+          ],
+          "where_it_breaks_down": [
+            "ninguna dimension < 60%",
+            "La Luna no tiene atmosfera (vacio), su gravedad es 1/6 g y su regolito es polvo fino sin oxidacion ni agua: la mineralogia hidratada/oxidada y el ambiente termico extremo no se reproducen en la Tierra."
+          ],
+          "mission_utility": "manejo de regolito/polvo y diseno termico de habitats; pruebas de movilidad y traccion de rovers"
+        },
+        {
+          "site_id": "EARTH_SECHURA",
+          "name": "Desierto de Sechura (PE)",
+          "score_global": 72.2,
+          "scores": {
+            "topografia": 58.2,
+            "rugosidad": 68.1,
+            "inercia_termica": 76.4,
+            "mineralogia": 86.0
+          },
+          "strongest_matches": [
+            "mineralogia (86%)",
+            "inercia_termica (76%)"
+          ],
+          "where_it_breaks_down": [
+            "topografia (58%)",
+            "La Luna no tiene atmosfera (vacio), su gravedad es 1/6 g y su regolito es polvo fino sin oxidacion ni agua: la mineralogia hidratada/oxidada y el ambiente termico extremo no se reproducen en la Tierra."
+          ],
+          "mission_utility": "calibracion de instrumentos y prospeccion de recursos (ISRU); manejo de regolito/polvo y diseno termico de habitats"
+        }
+      ]
+    },
+    {
+      "ref_site_id": "MOON_A17",
+      "ref_name": "Apollo 17 Taurus-Littrow",
+      "ref_thermal_inertia": 57.47,
+      "top_k": [
+        {
+          "site_id": "EARTH_ANTOFALLA",
+          "name": "Puna - Antofalla (AR)",
+          "score_global": 84.6,
+          "scores": {
+            "topografia": 84.6,
+            "rugosidad": 91.0,
+            "inercia_termica": 87.4,
+            "mineralogia": 75.4
+          },
+          "strongest_matches": [
+            "rugosidad (91%)",
+            "inercia_termica (87%)"
+          ],
+          "where_it_breaks_down": [
+            "ninguna dimension < 60%",
+            "La Luna no tiene atmosfera (vacio), su gravedad es 1/6 g y su regolito es polvo fino sin oxidacion ni agua: la mineralogia hidratada/oxidada y el ambiente termico extremo no se reproducen en la Tierra."
+          ],
+          "mission_utility": "pruebas de movilidad y traccion de rovers; manejo de regolito/polvo y diseno termico de habitats"
+        },
+        {
+          "site_id": "EARTH_NAMIB",
+          "name": "Namib - Sossusvlei (NA)",
+          "score_global": 79.7,
+          "scores": {
+            "topografia": 73.8,
+            "rugosidad": 69.8,
+            "inercia_termica": 91.8,
+            "mineralogia": 83.5
+          },
+          "strongest_matches": [
+            "inercia_termica (92%)",
+            "mineralogia (84%)"
+          ],
+          "where_it_breaks_down": [
+            "ninguna dimension < 60%",
+            "La Luna no tiene atmosfera (vacio), su gravedad es 1/6 g y su regolito es polvo fino sin oxidacion ni agua: la mineralogia hidratada/oxidada y el ambiente termico extremo no se reproducen en la Tierra."
+          ],
+          "mission_utility": "manejo de regolito/polvo y diseno termico de habitats; calibracion de instrumentos y prospeccion de recursos (ISRU)"
+        },
+        {
+          "site_id": "EARTH_TATACOA",
+          "name": "Desierto de la Tatacoa (CO)",
+          "score_global": 77.1,
+          "scores": {
+            "topografia": 66.0,
+            "rugosidad": 77.1,
+            "inercia_termica": 81.4,
+            "mineralogia": 84.0
+          },
+          "strongest_matches": [
+            "mineralogia (84%)",
+            "inercia_termica (81%)"
+          ],
+          "where_it_breaks_down": [
+            "ninguna dimension < 60%",
+            "La Luna no tiene atmosfera (vacio), su gravedad es 1/6 g y su regolito es polvo fino sin oxidacion ni agua: la mineralogia hidratada/oxidada y el ambiente termico extremo no se reproducen en la Tierra."
+          ],
+          "mission_utility": "calibracion de instrumentos y prospeccion de recursos (ISRU); manejo de regolito/polvo y diseno termico de habitats"
+        },
+        {
+          "site_id": "EARTH_GUAJIRA",
+          "name": "Alta Guajira interior arida (CO)",
+          "score_global": 74.3,
+          "scores": {
+            "topografia": 62.2,
+            "rugosidad": 76.2,
+            "inercia_termica": 89.6,
+            "mineralogia": 69.3
+          },
+          "strongest_matches": [
+            "inercia_termica (90%)",
+            "rugosidad (76%)"
+          ],
+          "where_it_breaks_down": [
+            "ninguna dimension < 60%",
+            "La Luna no tiene atmosfera (vacio), su gravedad es 1/6 g y su regolito es polvo fino sin oxidacion ni agua: la mineralogia hidratada/oxidada y el ambiente termico extremo no se reproducen en la Tierra."
+          ],
+          "mission_utility": "manejo de regolito/polvo y diseno termico de habitats; pruebas de movilidad y traccion de rovers"
+        },
+        {
+          "site_id": "EARTH_SECHURA",
+          "name": "Desierto de Sechura (PE)",
+          "score_global": 69.7,
+          "scores": {
+            "topografia": 48.8,
+            "rugosidad": 68.3,
+            "inercia_termica": 78.8,
+            "mineralogia": 83.0
+          },
+          "strongest_matches": [
+            "mineralogia (83%)",
+            "inercia_termica (79%)"
+          ],
+          "where_it_breaks_down": [
+            "topografia (49%)",
+            "La Luna no tiene atmosfera (vacio), su gravedad es 1/6 g y su regolito es polvo fino sin oxidacion ni agua: la mineralogia hidratada/oxidada y el ambiente termico extremo no se reproducen en la Tierra."
+          ],
+          "mission_utility": "calibracion de instrumentos y prospeccion de recursos (ISRU); manejo de regolito/polvo y diseno termico de habitats"
+        }
+      ]
+    },
+    {
+      "ref_site_id": "MOON_TRANQ",
+      "ref_name": "Mare Tranquillitatis (Apollo 11)",
+      "ref_thermal_inertia": 55.21,
+      "top_k": [
+        {
+          "site_id": "EARTH_SECHURA",
+          "name": "Desierto de Sechura (PE)",
+          "score_global": 87.2,
+          "scores": {
+            "topografia": 98.2,
+            "rugosidad": 93.3,
+            "inercia_termica": 76.9,
+            "mineralogia": 80.4
+          },
+          "strongest_matches": [
+            "topografia (98%)",
+            "rugosidad (93%)"
+          ],
+          "where_it_breaks_down": [
+            "ninguna dimension < 60%",
+            "La Luna no tiene atmosfera (vacio), su gravedad es 1/6 g y su regolito es polvo fino sin oxidacion ni agua: la mineralogia hidratada/oxidada y el ambiente termico extremo no se reproducen en la Tierra."
+          ],
+          "mission_utility": "ensayo de aterrizaje y seleccion de zona segura; pruebas de movilidad y traccion de rovers"
+        },
+        {
+          "site_id": "EARTH_GUAJIRA",
+          "name": "Alta Guajira interior arida (CO)",
+          "score_global": 83.6,
+          "scores": {
+            "topografia": 88.4,
+            "rugosidad": 86.5,
+            "inercia_termica": 87.7,
+            "mineralogia": 72.0
+          },
+          "strongest_matches": [
+            "topografia (88%)",
+            "inercia_termica (88%)"
+          ],
+          "where_it_breaks_down": [
+            "ninguna dimension < 60%",
+            "La Luna no tiene atmosfera (vacio), su gravedad es 1/6 g y su regolito es polvo fino sin oxidacion ni agua: la mineralogia hidratada/oxidada y el ambiente termico extremo no se reproducen en la Tierra."
+          ],
+          "mission_utility": "ensayo de aterrizaje y seleccion de zona segura; manejo de regolito/polvo y diseno termico de habitats"
+        },
+        {
+          "site_id": "EARTH_SAHARA",
+          "name": "Erg Chebbi - Sahara (MA)",
+          "score_global": 83.0,
+          "scores": {
+            "topografia": 99.1,
+            "rugosidad": 85.4,
+            "inercia_termica": 84.1,
+            "mineralogia": 63.2
+          },
+          "strongest_matches": [
+            "topografia (99%)",
+            "rugosidad (85%)"
+          ],
+          "where_it_breaks_down": [
+            "ninguna dimension < 60%",
+            "La Luna no tiene atmosfera (vacio), su gravedad es 1/6 g y su regolito es polvo fino sin oxidacion ni agua: la mineralogia hidratada/oxidada y el ambiente termico extremo no se reproducen en la Tierra."
+          ],
+          "mission_utility": "ensayo de aterrizaje y seleccion de zona segura; pruebas de movilidad y traccion de rovers"
+        },
+        {
+          "site_id": "EARTH_TATACOA",
+          "name": "Desierto de la Tatacoa (CO)",
+          "score_global": 82.6,
+          "scores": {
+            "topografia": 84.5,
+            "rugosidad": 85.0,
+            "inercia_termica": 79.5,
+            "mineralogia": 81.3
+          },
+          "strongest_matches": [
+            "rugosidad (85%)",
+            "topografia (85%)"
+          ],
+          "where_it_breaks_down": [
+            "ninguna dimension < 60%",
+            "La Luna no tiene atmosfera (vacio), su gravedad es 1/6 g y su regolito es polvo fino sin oxidacion ni agua: la mineralogia hidratada/oxidada y el ambiente termico extremo no se reproducen en la Tierra."
+          ],
+          "mission_utility": "pruebas de movilidad y traccion de rovers; ensayo de aterrizaje y seleccion de zona segura"
+        },
+        {
+          "site_id": "EARTH_NAMIB",
+          "name": "Namib - Sossusvlei (NA)",
+          "score_global": 82.0,
+          "scores": {
+            "topografia": 76.8,
+            "rugosidad": 76.3,
+            "inercia_termica": 93.7,
+            "mineralogia": 81.0
+          },
+          "strongest_matches": [
+            "inercia_termica (94%)",
+            "mineralogia (81%)"
+          ],
+          "where_it_breaks_down": [
+            "ninguna dimension < 60%",
+            "La Luna no tiene atmosfera (vacio), su gravedad es 1/6 g y su regolito es polvo fino sin oxidacion ni agua: la mineralogia hidratada/oxidada y el ambiente termico extremo no se reproducen en la Tierra."
+          ],
+          "mission_utility": "manejo de regolito/polvo y diseno termico de habitats; calibracion de instrumentos y prospeccion de recursos (ISRU)"
+        }
+      ]
+    },
+    {
+      "ref_site_id": "MOON_ARIS",
+      "ref_name": "Aristarchus Plateau",
+      "ref_thermal_inertia": 55.7,
+      "top_k": [
+        {
+          "site_id": "EARTH_ANTOFALLA",
+          "name": "Puna - Antofalla (AR)",
+          "score_global": 88.3,
+          "scores": {
+            "topografia": 92.7,
+            "rugosidad": 92.3,
+            "inercia_termica": 88.8,
+            "mineralogia": 79.4
+          },
+          "strongest_matches": [
+            "topografia (93%)",
+            "rugosidad (92%)"
+          ],
+          "where_it_breaks_down": [
+            "ninguna dimension < 60%",
+            "La Luna no tiene atmosfera (vacio), su gravedad es 1/6 g y su regolito es polvo fino sin oxidacion ni agua: la mineralogia hidratada/oxidada y el ambiente termico extremo no se reproducen en la Tierra."
+          ],
+          "mission_utility": "ensayo de aterrizaje y seleccion de zona segura; pruebas de movilidad y traccion de rovers"
+        },
+        {
+          "site_id": "EARTH_NAMIB",
+          "name": "Namib - Sossusvlei (NA)",
+          "score_global": 86.1,
+          "scores": {
+            "topografia": 96.5,
+            "rugosidad": 75.0,
+            "inercia_termica": 93.3,
+            "mineralogia": 79.5
+          },
+          "strongest_matches": [
+            "topografia (96%)",
+            "inercia_termica (93%)"
+          ],
+          "where_it_breaks_down": [
+            "ninguna dimension < 60%",
+            "La Luna no tiene atmosfera (vacio), su gravedad es 1/6 g y su regolito es polvo fino sin oxidacion ni agua: la mineralogia hidratada/oxidada y el ambiente termico extremo no se reproducen en la Tierra."
+          ],
+          "mission_utility": "ensayo de aterrizaje y seleccion de zona segura; manejo de regolito/polvo y diseno termico de habitats"
+        },
+        {
+          "site_id": "EARTH_TATACOA",
+          "name": "Desierto de la Tatacoa (CO)",
+          "score_global": 84.7,
+          "scores": {
+            "topografia": 88.7,
+            "rugosidad": 82.3,
+            "inercia_termica": 80.0,
+            "mineralogia": 88.0
+          },
+          "strongest_matches": [
+            "topografia (89%)",
+            "mineralogia (88%)"
+          ],
+          "where_it_breaks_down": [
+            "ninguna dimension < 60%",
+            "La Luna no tiene atmosfera (vacio), su gravedad es 1/6 g y su regolito es polvo fino sin oxidacion ni agua: la mineralogia hidratada/oxidada y el ambiente termico extremo no se reproducen en la Tierra."
+          ],
+          "mission_utility": "ensayo de aterrizaje y seleccion de zona segura; calibracion de instrumentos y prospeccion de recursos (ISRU)"
+        },
+        {
+          "site_id": "EARTH_GUAJIRA",
+          "name": "Alta Guajira interior arida (CO)",
+          "score_global": 79.9,
+          "scores": {
+            "topografia": 84.9,
+            "rugosidad": 81.3,
+            "inercia_termica": 88.2,
+            "mineralogia": 65.3
+          },
+          "strongest_matches": [
+            "inercia_termica (88%)",
+            "topografia (85%)"
+          ],
+          "where_it_breaks_down": [
+            "ninguna dimension < 60%",
+            "La Luna no tiene atmosfera (vacio), su gravedad es 1/6 g y su regolito es polvo fino sin oxidacion ni agua: la mineralogia hidratada/oxidada y el ambiente termico extremo no se reproducen en la Tierra."
+          ],
+          "mission_utility": "manejo de regolito/polvo y diseno termico de habitats; ensayo de aterrizaje y seleccion de zona segura"
+        },
+        {
+          "site_id": "EARTH_SECHURA",
+          "name": "Desierto de Sechura (PE)",
+          "score_global": 77.3,
+          "scores": {
+            "topografia": 71.5,
+            "rugosidad": 73.4,
+            "inercia_termica": 77.4,
+            "mineralogia": 87.0
+          },
+          "strongest_matches": [
+            "mineralogia (87%)",
+            "inercia_termica (77%)"
+          ],
+          "where_it_breaks_down": [
+            "ninguna dimension < 60%",
+            "La Luna no tiene atmosfera (vacio), su gravedad es 1/6 g y su regolito es polvo fino sin oxidacion ni agua: la mineralogia hidratada/oxidada y el ambiente termico extremo no se reproducen en la Tierra."
+          ],
+          "mission_utility": "calibracion de instrumentos y prospeccion de recursos (ISRU); manejo de regolito/polvo y diseno termico de habitats"
+        }
+      ]
+    }
+  ]
+}

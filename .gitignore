@@ -1,0 +1,24 @@
+# Entornos y dependencias (se regeneran)
+.venv/
+node_modules/
+__pycache__/
+*.pyc
+
+# Compilado: Netlify lo genera con `npm run build`
+frontend/dist/
+
+# Configuración local y credenciales (nunca al repositorio)
+.dodsrc
+.netrc
+_netrc
+*.cookies
+.claude/settings.local.json
+.env
+.env.*
+
+# Archivos de trabajo de agentes
+.agents/
+
+# Basura del sistema
+Thumbs.db
+.DS_Store

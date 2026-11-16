@@ -1,0 +1,10 @@
+{
+ "body": "moon",
+ "width": 2048,
+ "height": 1024,
+ "projection": "equirectangular (simple cylindrical)",
+ "elev_min_m": -8941.2,
+ "elev_max_m": 10667.2,
+ "radius_m": 1737400.0,
+ "source": "https://planetarymaps.usgs.gov/mosaic/Lunar_LRO_LOLA_Global_LDEM_118m_Mar2014.tif"
+}

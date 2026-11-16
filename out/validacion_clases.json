@@ -1,0 +1,624 @@
+{
+  "P1_agrupamiento": {
+    "p_vecino_misma_clase_por_sitio": {
+      "MARE_SERENITATIS": 1.0,
+      "MARE_IMBRIUM": 1.0,
+      "MARE_CRISIUM": 1.0,
+      "MARE_FECUNDITATIS": 1.0,
+      "MOON_TRANQ": 1.0,
+      "TERRA_FARSIDE_A": 1.0,
+      "TERRA_FARSIDE_B": 1.0,
+      "TERRA_NEARSIDE_SUR": 1.0,
+      "TERRA_FARSIDE_C": 1.0
+    },
+    "media": 1.0,
+    "azar_media": 0.4444444444444444,
+    "se_cumple": true
+  },
+  "P2_escala": {
+    "por_escala": {
+      "slope_118m": {
+        "between_mean": 7.978101882308072,
+        "within_mean": 2.5271028053549296,
+        "ratio": 3.1570151659055887
+      },
+      "slope_354m": {
+        "between_mean": 7.9010054487797365,
+        "within_mean": 2.5807940180932225,
+        "ratio": 3.06146302005817
+      },
+      "slope_1062m": {
+        "between_mean": 7.341323498863263,
+        "within_mean": 2.6165678681973032,
+        "ratio": 2.805707273291979
+      },
+      "slope_3186m": {
+        "between_mean": 5.85937354546361,
+        "within_mean": 2.3718414204345737,
+        "ratio": 2.470390092264281
+      }
+    },
+    "se_cumple": false
+  },
+  "sitios": [
+    {
+      "site_id": "MARE_SERENITATIS",
+      "clase": "mar",
+      "lat": 28.0,
+      "lon": 17.5,
+      "fuente_clase": "IAU Mare Serenitatis + FeO Kaguya",
+      "feo_wt_pct": 15.8
+    },
+    {
+      "site_id": "MARE_IMBRIUM",
+      "clase": "mar",
+      "lat": 33.0,
+      "lon": -16.0,
+      "fuente_clase": "IAU Mare Imbrium + FeO Kaguya",
+      "feo_wt_pct": 15.6
+    },
+    {
+      "site_id": "MARE_CRISIUM",
+      "clase": "mar",
+      "lat": 17.0,
+      "lon": 59.1,
+      "fuente_clase": "IAU Mare Crisium + FeO Kaguya",
+      "feo_wt_pct": 16.9
+    },
+    {
+      "site_id": "MARE_FECUNDITATIS",
+      "clase": "mar",
+      "lat": -8.0,
+      "lon": 51.0,
+      "fuente_clase": "IAU Mare Fecunditatis + FeO Kaguya",
+      "feo_wt_pct": 17.7
+    },
+    {
+      "site_id": "MOON_TRANQ",
+      "clase": "mar",
+      "lat": 0.67,
+      "lon": 23.47,
+      "fuente_clase": "IAU Mare Tranquillitatis + FeO Kaguya",
+      "feo_wt_pct": 17.59
+    },
+    {
+      "site_id": "TERRA_FARSIDE_A",
+      "clase": "tierras_altas",
+      "lat": 10.0,
+      "lon": 170.0,
+      "fuente_clase": "terra de la cara oculta + FeO Kaguya",
+      "feo_wt_pct": 3.8
+    },
+    {
+      "site_id": "TERRA_FARSIDE_B",
+      "clase": "tierras_altas",
+      "lat": -5.0,
+      "lon": -150.0,
+      "fuente_clase": "terra de la cara oculta + FeO Kaguya",
+      "feo_wt_pct": 4.9
+    },
+    {
+      "site_id": "TERRA_NEARSIDE_SUR",
+      "clase": "tierras_altas",
+      "lat": -30.0,
+      "lon": 5.0,
+      "fuente_clase": "terra del sur de la cara visible + FeO Kaguya",
+      "feo_wt_pct": 5.4
+    },
+    {
+      "site_id": "TERRA_FARSIDE_C",
+      "clase": "tierras_altas",
+      "lat": 20.0,
+      "lon": -165.0,
+      "fuente_clase": "terra de la cara oculta + FeO Kaguya",
+      "feo_wt_pct": 5.0
+    }
+  ],
+  "distancias_deg": {
+    "MARE_SERENITATIS": {
+      "MARE_SERENITATIS": {
+        "slope_118m": 0.0,
+        "slope_354m": 0.0,
+        "slope_1062m": 0.0,
+        "slope_3186m": 0.0
+      },
+      "MARE_IMBRIUM": {
+        "slope_118m": 3.023362725462332,
+        "slope_354m": 2.991079623978156,
+        "slope_1062m": 2.846573195176333,
+        "slope_3186m": 2.4982890265062565
+      },
+      "MARE_CRISIUM": {
+        "slope_118m": 0.13599953763787187,
+        "slope_354m": 0.1212303144479915,
+        "slope_1062m": 0.10029025606863234,
+        "slope_3186m": 0.09410635416374684
+      },
+      "MARE_FECUNDITATIS": {
+        "slope_118m": 1.3972150680028834,
+        "slope_354m": 1.428113483890495,
+        "slope_1062m": 1.398680748747973,
+        "slope_3186m": 1.1995345410699279
+      },
+      "MOON_TRANQ": {
+        "slope_118m": 0.6643481800562446,
+        "slope_354m": 0.6988442561075802,
+        "slope_1062m": 0.6919594633389278,
+        "slope_3186m": 0.6453081500093262
+      },
+      "TERRA_FARSIDE_A": {
+        "slope_118m": 7.908009005846221,
+        "slope_354m": 7.798733881584339,
+        "slope_1062m": 7.067796126426701,
+        "slope_3186m": 5.329249685804559
+      },
+      "TERRA_FARSIDE_B": {
+        "slope_118m": 14.079749656381816,
+        "slope_354m": 14.104678960593152,
+        "slope_1062m": 13.716775819357947,
+        "slope_3186m": 11.896455044058461
+      },
+      "TERRA_NEARSIDE_SUR": {
+        "slope_118m": 6.18772926769543,
+        "slope_354m": 6.013128016617058,
+        "slope_1062m": 5.3503154871243455,
+        "slope_3186m": 4.308960232989241
+      },
+      "TERRA_FARSIDE_C": {
+        "slope_118m": 7.111703603980928,
+        "slope_354m": 7.040128987799828,
+        "slope_1062m": 6.445508739536364,
+        "slope_3186m": 4.940594678594411
+      }
+    },
+    "MARE_IMBRIUM": {
+      "MARE_SERENITATIS": {
+        "slope_118m": 3.023362725462332,
+        "slope_354m": 2.991079623978156,
+        "slope_1062m": 2.846573195176333,
+        "slope_3186m": 2.4982890265062565
+      },
+      "MARE_IMBRIUM": {
+        "slope_118m": 0.0,
+        "slope_354m": 0.0,
+        "slope_1062m": 0.0,
+        "slope_3186m": 0.0
+      },
+      "MARE_CRISIUM": {
+        "slope_118m": 2.9272813870015675,
+        "slope_354m": 2.9292832854787565,
+        "slope_1062m": 2.77761306843234,
+        "slope_3186m": 2.4077246371704373
+      },
+      "MARE_FECUNDITATIS": {
+        "slope_118m": 2.4962292416477507,
+        "slope_354m": 2.5944764232004895,
+        "slope_1062m": 2.6223088271071258,
+        "slope_3186m": 2.1903354293750343
+      },
+      "MOON_TRANQ": {
+        "slope_118m": 2.529384207012241,
+        "slope_354m": 2.5600007332767576,
+        "slope_1062m": 2.5602686080564605,
+        "slope_3186m": 2.2099250818136817
+      },
+      "TERRA_FARSIDE_A": {
+        "slope_118m": 5.573083199708861,
+        "slope_354m": 5.522241573634576,
+        "slope_1062m": 4.959244796029281,
+        "slope_3186m": 3.4119107665807253
+      },
+      "TERRA_FARSIDE_B": {
+        "slope_118m": 11.4077634767263,
+        "slope_354m": 11.461424397679036,
+        "slope_1062m": 11.139511508723135,
+        "slope_3186m": 9.398166017552203
+      },
+      "TERRA_NEARSIDE_SUR": {
+        "slope_118m": 4.549115755604103,
+        "slope_354m": 4.44135225709322,
+        "slope_1062m": 3.953176133216302,
+        "slope_3186m": 2.713714789602549
+      },
+      "TERRA_FARSIDE_C": {
+        "slope_118m": 5.513887424584142,
+        "slope_354m": 5.523427674800271,
+        "slope_1062m": 5.091354204838663,
+        "slope_3186m": 3.4627827813376797
+      }
+    },
+    "MARE_CRISIUM": {
+      "MARE_SERENITATIS": {
+        "slope_118m": 0.13599953763787187,
+        "slope_354m": 0.1212303144479915,
+        "slope_1062m": 0.10029025606863234,
+        "slope_3186m": 0.09410635416374684
+      },
+      "MARE_IMBRIUM": {
+        "slope_118m": 2.9272813870015675,
+        "slope_354m": 2.9292832854787565,
+        "slope_1062m": 2.77761306843234,
+        "slope_3186m": 2.4077246371704373
+      },
+      "MARE_CRISIUM": {
+        "slope_118m": 0.0,
+        "slope_354m": 0.0,
+        "slope_1062m": 0.0,
+        "slope_3186m": 0.0
+      },
+      "MARE_FECUNDITATIS": {
+        "slope_118m": 1.3011337295421186,
+        "slope_354m": 1.366317145391096,
+        "slope_1062m": 1.3297206220039783,
+        "slope_3186m": 1.108970151734109
+      },
+      "MOON_TRANQ": {
+        "slope_118m": 0.5682668415954795,
+        "slope_354m": 0.6370479176081811,
+        "slope_1062m": 0.6229993365949333,
+        "slope_3186m": 0.5547437606735071
+      },
+      "TERRA_FARSIDE_A": {
+        "slope_118m": 7.811927667385455,
+        "slope_354m": 7.73693754308494,
+        "slope_1062m": 6.998835999682706,
+        "slope_3186m": 5.238685296468739
+      },
+      "TERRA_FARSIDE_B": {
+        "slope_118m": 13.983668317921055,
+        "slope_354m": 14.042882622093755,
+        "slope_1062m": 13.647815692613953,
+        "slope_3186m": 11.80589065472264
+      },
+      "TERRA_NEARSIDE_SUR": {
+        "slope_118m": 6.091647929234665,
+        "slope_354m": 5.9513316781176595,
+        "slope_1062m": 5.28135536038035,
+        "slope_3186m": 4.218395843653422
+      },
+      "TERRA_FARSIDE_C": {
+        "slope_118m": 7.015622265520164,
+        "slope_354m": 6.9783326493004285,
+        "slope_1062m": 6.3765486127923685,
+        "slope_3186m": 4.8500302892585925
+      }
+    },
+    "MARE_FECUNDITATIS": {
+      "MARE_SERENITATIS": {
+        "slope_118m": 1.3972150680028834,
+        "slope_354m": 1.428113483890495,
+        "slope_1062m": 1.398680748747973,
+        "slope_3186m": 1.1995345410699279
+      },
+      "MARE_IMBRIUM": {
+        "slope_118m": 2.4962292416477507,
+        "slope_354m": 2.5944764232004895,
+        "slope_1062m": 2.6223088271071258,
+        "slope_3186m": 2.1903354293750343
+      },
+      "MARE_CRISIUM": {
+        "slope_118m": 1.3011337295421186,
+        "slope_354m": 1.366317145391096,
+        "slope_1062m": 1.3297206220039783,
+        "slope_3186m": 1.108970151734109
+      },
+      "MARE_FECUNDITATIS": {
+        "slope_118m": 0.0,
+        "slope_354m": 0.0,
+        "slope_1062m": 0.0,
+        "slope_3186m": 0.0
+      },
+      "MOON_TRANQ": {
+        "slope_118m": 0.7569143261036309,
+        "slope_354m": 0.7553030157352005,
+        "slope_1062m": 0.7091377604641199,
+        "slope_3186m": 0.5556183945041354
+      },
+      "TERRA_FARSIDE_A": {
+        "slope_118m": 6.510793937843339,
+        "slope_354m": 6.370620397693843,
+        "slope_1062m": 5.669115377678727,
+        "slope_3186m": 4.12971514473463
+      },
+      "TERRA_FARSIDE_B": {
+        "slope_118m": 12.682534588378934,
+        "slope_354m": 12.676565476702658,
+        "slope_1062m": 12.318095070609974,
+        "slope_3186m": 10.696920502988533
+      },
+      "TERRA_NEARSIDE_SUR": {
+        "slope_118m": 4.790514199692546,
+        "slope_354m": 4.5850145327265635,
+        "slope_1062m": 3.951634738376372,
+        "slope_3186m": 3.1431873352676347
+      },
+      "TERRA_FARSIDE_C": {
+        "slope_118m": 5.714488535978045,
+        "slope_354m": 5.612015503909333,
+        "slope_1062m": 5.04682799078839,
+        "slope_3186m": 3.7410601375244834
+      }
+    },
+    "MOON_TRANQ": {
+      "MARE_SERENITATIS": {
+        "slope_118m": 0.6643481800562446,
+        "slope_354m": 0.6988442561075802,
+        "slope_1062m": 0.6919594633389278,
+        "slope_3186m": 0.6453081500093262
+      },
+      "MARE_IMBRIUM": {
+        "slope_118m": 2.529384207012241,
+        "slope_354m": 2.5600007332767576,
+        "slope_1062m": 2.5602686080564605,
+        "slope_3186m": 2.2099250818136817
+      },
+      "MARE_CRISIUM": {
+        "slope_118m": 0.5682668415954795,
+        "slope_354m": 0.6370479176081811,
+        "slope_1062m": 0.6229993365949333,
+        "slope_3186m": 0.5547437606735071
+      },
+      "MARE_FECUNDITATIS": {
+        "slope_118m": 0.7569143261036309,
+        "slope_354m": 0.7553030157352005,
+        "slope_1062m": 0.7091377604641199,
+        "slope_3186m": 0.5556183945041354
+      },
+      "MOON_TRANQ": {
+        "slope_118m": 0.0,
+        "slope_354m": 0.0,
+        "slope_1062m": 0.0,
+        "slope_3186m": 0.0
+      },
+      "TERRA_FARSIDE_A": {
+        "slope_118m": 7.243660825789977,
+        "slope_354m": 7.0998896254767585,
+        "slope_1062m": 6.375836663087772,
+        "slope_3186m": 4.683941535795233
+      },
+      "TERRA_FARSIDE_B": {
+        "slope_118m": 13.415401476325574,
+        "slope_354m": 13.405834704485573,
+        "slope_1062m": 13.024816356019018,
+        "slope_3186m": 11.251146894049134
+      },
+      "TERRA_NEARSIDE_SUR": {
+        "slope_118m": 5.523381087639185,
+        "slope_354m": 5.314283760509477,
+        "slope_1062m": 4.658356023785418,
+        "slope_3186m": 3.6713697524238293
+      },
+      "TERRA_FARSIDE_C": {
+        "slope_118m": 6.447355423924684,
+        "slope_354m": 6.341284731692247,
+        "slope_1062m": 5.753549276197435,
+        "slope_3186m": 4.295293525865504
+      }
+    },
+    "TERRA_FARSIDE_A": {
+      "MARE_SERENITATIS": {
+        "slope_118m": 7.908009005846221,
+        "slope_354m": 7.798733881584339,
+        "slope_1062m": 7.067796126426701,
+        "slope_3186m": 5.329249685804559
+      },
+      "MARE_IMBRIUM": {
+        "slope_118m": 5.573083199708861,
+        "slope_354m": 5.522241573634576,
+        "slope_1062m": 4.959244796029281,
+        "slope_3186m": 3.4119107665807253
+      },
+      "MARE_CRISIUM": {
+        "slope_118m": 7.811927667385455,
+        "slope_354m": 7.73693754308494,
+        "slope_1062m": 6.998835999682706,
+        "slope_3186m": 5.238685296468739
+      },
+      "MARE_FECUNDITATIS": {
+        "slope_118m": 6.510793937843339,
+        "slope_354m": 6.370620397693843,
+        "slope_1062m": 5.669115377678727,
+        "slope_3186m": 4.12971514473463
+      },
+      "MOON_TRANQ": {
+        "slope_118m": 7.243660825789977,
+        "slope_354m": 7.0998896254767585,
+        "slope_1062m": 6.375836663087772,
+        "slope_3186m": 4.683941535795233
+      },
+      "TERRA_FARSIDE_A": {
+        "slope_118m": 0.0,
+        "slope_354m": 0.0,
+        "slope_1062m": 0.0,
+        "slope_3186m": 0.0
+      },
+      "TERRA_FARSIDE_B": {
+        "slope_118m": 6.189713005034171,
+        "slope_354m": 6.325201479180575,
+        "slope_1062m": 6.657529459940421,
+        "slope_3186m": 6.567205358253901
+      },
+      "TERRA_NEARSIDE_SUR": {
+        "slope_118m": 1.7202797381507913,
+        "slope_354m": 1.7856058649672806,
+        "slope_1062m": 1.8706290557500855,
+        "slope_3186m": 1.5683703383039012
+      },
+      "TERRA_FARSIDE_C": {
+        "slope_118m": 0.7963054018652924,
+        "slope_354m": 0.758604893784511,
+        "slope_1062m": 0.6222873868903362,
+        "slope_3186m": 0.41065319966270986
+      }
+    },
+    "TERRA_FARSIDE_B": {
+      "MARE_SERENITATIS": {
+        "slope_118m": 14.079749656381816,
+        "slope_354m": 14.104678960593152,
+        "slope_1062m": 13.716775819357947,
+        "slope_3186m": 11.896455044058461
+      },
+      "MARE_IMBRIUM": {
+        "slope_118m": 11.4077634767263,
+        "slope_354m": 11.461424397679036,
+        "slope_1062m": 11.139511508723135,
+        "slope_3186m": 9.398166017552203
+      },
+      "MARE_CRISIUM": {
+        "slope_118m": 13.983668317921055,
+        "slope_354m": 14.042882622093755,
+        "slope_1062m": 13.647815692613953,
+        "slope_3186m": 11.80589065472264
+      },
+      "MARE_FECUNDITATIS": {
+        "slope_118m": 12.682534588378934,
+        "slope_354m": 12.676565476702658,
+        "slope_1062m": 12.318095070609974,
+        "slope_3186m": 10.696920502988533
+      },
+      "MOON_TRANQ": {
+        "slope_118m": 13.415401476325574,
+        "slope_354m": 13.405834704485573,
+        "slope_1062m": 13.024816356019018,
+        "slope_3186m": 11.251146894049134
+      },
+      "TERRA_FARSIDE_A": {
+        "slope_118m": 6.189713005034171,
+        "slope_354m": 6.325201479180575,
+        "slope_1062m": 6.657529459940421,
+        "slope_3186m": 6.567205358253901
+      },
+      "TERRA_FARSIDE_B": {
+        "slope_118m": 0.0,
+        "slope_354m": 0.0,
+        "slope_1062m": 0.0,
+        "slope_3186m": 0.0
+      },
+      "TERRA_NEARSIDE_SUR": {
+        "slope_118m": 7.892020388686389,
+        "slope_354m": 8.091550943976094,
+        "slope_1062m": 8.366460332233602,
+        "slope_3186m": 7.587494811069218
+      },
+      "TERRA_FARSIDE_C": {
+        "slope_118m": 6.96804605240089,
+        "slope_354m": 7.064549972793324,
+        "slope_1062m": 7.271267079821583,
+        "slope_3186m": 6.955860365464049
+      }
+    },
+    "TERRA_NEARSIDE_SUR": {
+      "MARE_SERENITATIS": {
+        "slope_118m": 6.18772926769543,
+        "slope_354m": 6.013128016617058,
+        "slope_1062m": 5.3503154871243455,
+        "slope_3186m": 4.308960232989241
+      },
+      "MARE_IMBRIUM": {
+        "slope_118m": 4.549115755604103,
+        "slope_354m": 4.44135225709322,
+        "slope_1062m": 3.953176133216302,
+        "slope_3186m": 2.713714789602549
+      },
+      "MARE_CRISIUM": {
+        "slope_118m": 6.091647929234665,
+        "slope_354m": 5.9513316781176595,
+        "slope_1062m": 5.28135536038035,
+        "slope_3186m": 4.218395843653422
+      },
+      "MARE_FECUNDITATIS": {
+        "slope_118m": 4.790514199692546,
+        "slope_354m": 4.5850145327265635,
+        "slope_1062m": 3.951634738376372,
+        "slope_3186m": 3.1431873352676347
+      },
+      "MOON_TRANQ": {
+        "slope_118m": 5.523381087639185,
+        "slope_354m": 5.314283760509477,
+        "slope_1062m": 4.658356023785418,
+        "slope_3186m": 3.6713697524238293
+      },
+      "TERRA_FARSIDE_A": {
+        "slope_118m": 1.7202797381507913,
+        "slope_354m": 1.7856058649672806,
+        "slope_1062m": 1.8706290557500855,
+        "slope_3186m": 1.5683703383039012
+      },
+      "TERRA_FARSIDE_B": {
+        "slope_118m": 7.892020388686389,
+        "slope_354m": 8.091550943976094,
+        "slope_1062m": 8.366460332233602,
+        "slope_3186m": 7.587494811069218
+      },
+      "TERRA_NEARSIDE_SUR": {
+        "slope_118m": 0.0,
+        "slope_354m": 0.0,
+        "slope_1062m": 0.0,
+        "slope_3186m": 0.0
+      },
+      "TERRA_FARSIDE_C": {
+        "slope_118m": 1.0671450554792223,
+        "slope_354m": 1.1854949356750766,
+        "slope_1062m": 1.417360690529994,
+        "slope_3186m": 1.3953231271792357
+      }
+    },
+    "TERRA_FARSIDE_C": {
+      "MARE_SERENITATIS": {
+        "slope_118m": 7.111703603980928,
+        "slope_354m": 7.040128987799828,
+        "slope_1062m": 6.445508739536364,
+        "slope_3186m": 4.940594678594411
+      },
+      "MARE_IMBRIUM": {
+        "slope_118m": 5.513887424584142,
+        "slope_354m": 5.523427674800271,
+        "slope_1062m": 5.091354204838663,
+        "slope_3186m": 3.4627827813376797
+      },
+      "MARE_CRISIUM": {
+        "slope_118m": 7.015622265520164,
+        "slope_354m": 6.9783326493004285,
+        "slope_1062m": 6.3765486127923685,
+        "slope_3186m": 4.8500302892585925
+      },
+      "MARE_FECUNDITATIS": {
+        "slope_118m": 5.714488535978045,
+        "slope_354m": 5.612015503909333,
+        "slope_1062m": 5.04682799078839,
+        "slope_3186m": 3.7410601375244834
+      },
+      "MOON_TRANQ": {
+        "slope_118m": 6.447355423924684,
+        "slope_354m": 6.341284731692247,
+        "slope_1062m": 5.753549276197435,
+        "slope_3186m": 4.295293525865504
+      },
+      "TERRA_FARSIDE_A": {
+        "slope_118m": 0.7963054018652924,
+        "slope_354m": 0.758604893784511,
+        "slope_1062m": 0.6222873868903362,
+        "slope_3186m": 0.41065319966270986
+      },
+      "TERRA_FARSIDE_B": {
+        "slope_118m": 6.96804605240089,
+        "slope_354m": 7.064549972793324,
+        "slope_1062m": 7.271267079821583,
+        "slope_3186m": 6.955860365464049
+      },
+      "TERRA_NEARSIDE_SUR": {
+        "slope_118m": 1.0671450554792223,
+        "slope_354m": 1.1854949356750766,
+        "slope_1062m": 1.417360690529994,
+        "slope_3186m": 1.3953231271792357
+      },
+      "TERRA_FARSIDE_C": {
+        "slope_118m": 0.0,
+        "slope_354m": 0.0,
+        "slope_1062m": 0.0,
+        "slope_3186m": 0.0
+      }
+    }
+  },
+  "nota": "Valida que la metrica distingue clases de terreno documentadas en la Luna. NO valida la comparacion Tierra-Luna ni Tierra-Marte (no hay pares de relieve publicados para nuestros sitios)."
+}

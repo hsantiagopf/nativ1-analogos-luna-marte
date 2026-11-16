@@ -1,0 +1,10 @@
+# Perfil mineral de superficie de los sitios lunares de referencia. Mismos ejes que Marte/Tierra.
+# Fuente: FeO wt% de Kaguya MI (planetarymaps USGS); clases del 0 por quimica lunar conocida.
+# CLAVE (quiebre de analogia): la Luna NO tiene oxidos ferricos (hierro reducido, no oxidado), ni
+# sulfatos, ni arcillas, ni carbonatos -> esos ejes son 0. Solo hay caracter mafico (mare basaltico,
+# alto FeO) y anortositico (tierras altas). feo_wt_pct es el dato crudo; min_mafic = FeO/22 (proxy 0-1).
+site_id,feo_wt_pct,min_ferric_oxide,min_sulfate,min_clay,min_mafic,min_carbonate,mineral_source
+MOON_A15,13.78,0.0,0.0,0.0,0.63,0.0,Kaguya_MI_FeO
+MOON_A17,15.83,0.0,0.0,0.0,0.72,0.0,Kaguya_MI_FeO
+MOON_TRANQ,17.59,0.0,0.0,0.0,0.80,0.0,Kaguya_MI_FeO
+MOON_ARIS,13.16,0.0,0.0,0.0,0.60,0.0,Kaguya_MI_FeO

@@ -1,0 +1,2273 @@
+{
+  "target_body": "MARS",
+  "excluded_by_aridity": [
+    "EARTH_TATACOA"
+  ],
+  "references": [
+    {
+      "ref_site_id": "MARS_JEZERO",
+      "ref_name": "Jezero Crater",
+      "ref_relief_summary": {
+        "sea_frac_masked": 0.0,
+        "edited_plateau_frac_masked": 0.0,
+        "valid_frac": 1.0,
+        "slope_463m": {
+          "n": 37249,
+          "p10": 0.5869724350702993,
+          "median": 1.9362405685011104,
+          "p90": 5.986007652066372
+        },
+        "requirement_fractions": {
+          "R03_lt5": 0.8670568337405031,
+          "R01_lt10": 0.9622003275255712,
+          "R04_lt15": 0.9914628580633037,
+          "R02_lt20": 0.9973422105291417
+        },
+        "requirement_scale_m": 463.0,
+        "slope_1389m": {
+          "n": 36481,
+          "p10": 0.5362299398354994,
+          "median": 1.7441802917210334,
+          "p90": 5.233835466018504
+        },
+        "slope_4167m": {
+          "n": 34225,
+          "p10": 0.4292219560154574,
+          "median": 1.2943883924146795,
+          "p90": 3.7112987979901604
+        },
+        "slope_12501m": {
+          "n": 27889,
+          "p10": 0.36558290635459467,
+          "median": 1.0101560022824354,
+          "p90": 2.3096411220476307
+        }
+      },
+      "candidates": [
+        {
+          "robustness": "robusto",
+          "requirement_assessment": "no evaluable: requisitos de Marte definidos a escala de metros; pendiente medida a 463 m",
+          "site_id": "EARTH_GUAJIRA",
+          "name": "Alta Guajira interior arida (CO)",
+          "role": "candidate",
+          "score_global": 94.6,
+          "score_global_meaning": "probabilidad (%) de quedar entre los 3 mas parecidos en relieve, con pesos desconocidos y error de medicion",
+          "p_top_k_solo_pesos": 94.6,
+          "expected_rank": 2.84,
+          "rank_acceptability": [
+            0.0,
+            0.218,
+            0.7281,
+            0.0539,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "central_weights": {
+            "slope_463m": null,
+            "slope_1389m": null,
+            "slope_4167m": null,
+            "slope_12501m": null
+          },
+          "weighted_distance_deg": {
+            "median": 0.879,
+            "p05": 0.769,
+            "p95": 0.993
+          },
+          "scores": {
+            "relieve_multiescala_distancia_deg": {
+              "slope_463m": 0.853,
+              "slope_1389m": 1.095,
+              "slope_4167m": 0.893,
+              "slope_12501m": 0.679
+            },
+            "inercia_termica": null,
+            "mineralogia": null,
+            "visual": null
+          },
+          "scores_note": "Solo el relieve entra al ranking; termica, mineralogia y visual son descriptivas (decision del equipo).",
+          "strongest_matches": [
+            "pendiente a 12501m: distancia 0.68 grados (mediana 1.0 frente a 0.5)",
+            "pendiente a 463m: distancia 0.85 grados (mediana 1.9 frente a 0.8)"
+          ],
+          "where_it_breaks_down": [
+            "Relieve: la escala menos parecida es 1389m (distancia 1.10 grados; mediana 1.7 frente a 0.7).",
+            "Inercia termica (descriptiva, fuera del ranking): referencia 253.3 J m-2 K-1 s-1/2; candidato indice aparente 0.070 (1/K). No son comparables: la presion atmosferica cambia la inercia del mismo material.",
+            "Mineralogia (descriptiva): referencia ferrico 0.7, sulfato 0.2, arcilla 0.8, carbonato 0.7 (presencia 0-1 segun literatura). Sentinel-2 en el candidato: indice de oxido de hierro 5.55, arcilla/sulfato 1.26 (cocientes de reflectancia). Son magnitudes distintas; no se puntua.",
+            "Datos: se excluyo 42 % de la ventana por ser mar.",
+            "Fisica del cuerpo: Marte tiene una atmosfera de ~0.6 % de la presion terrestre, gravedad ~0.38 g y mas radiacion en superficie; el transporte de polvo y el ambiente termico difieren."
+          ],
+          "mission_utility": "No demostrado para aterrizaje ni movilidad: esos requisitos en Marte estan definidos a escala de metros (InSight 2-84 m) y estas pendientes son a 463 m. Sirve como parecido de relieve a escala regional."
+        },
+        {
+          "robustness": "robusto",
+          "requirement_assessment": "no evaluable: requisitos de Marte definidos a escala de metros; pendiente medida a 463 m",
+          "site_id": "EARTH_PAYUNIA",
+          "name": "La Payunia - Pampas Negras (AR)",
+          "role": "candidate",
+          "score_global": 91.3,
+          "score_global_meaning": "probabilidad (%) de quedar entre los 3 mas parecidos en relieve, con pesos desconocidos y error de medicion",
+          "p_top_k_solo_pesos": 91.4,
+          "expected_rank": 2.02,
+          "rank_acceptability": [
+            0.3263,
+            0.4255,
+            0.1608,
+            0.0752,
+            0.0122,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "central_weights": {
+            "slope_463m": 0.188,
+            "slope_1389m": 0.442,
+            "slope_4167m": 0.232,
+            "slope_12501m": 0.138
+          },
+          "weighted_distance_deg": {
+            "median": 0.801,
+            "p05": 0.748,
+            "p95": 0.874
+          },
+          "scores": {
+            "relieve_multiescala_distancia_deg": {
+              "slope_463m": 0.94,
+              "slope_1389m": 0.703,
+              "slope_4167m": 0.789,
+              "slope_12501m": 0.793
+            },
+            "inercia_termica": null,
+            "mineralogia": null,
+            "visual": null
+          },
+          "scores_note": "Solo el relieve entra al ranking; termica, mineralogia y visual son descriptivas (decision del equipo).",
+          "strongest_matches": [
+            "pendiente a 1389m: distancia 0.70 grados (mediana 1.7 frente a 2.2)",
+            "pendiente a 4167m: distancia 0.79 grados (mediana 1.3 frente a 2.0)"
+          ],
+          "where_it_breaks_down": [
+            "Relieve: la escala menos parecida es 463m (distancia 0.94 grados; mediana 1.9 frente a 2.5).",
+            "Inercia termica (descriptiva, fuera del ranking): referencia 253.3 J m-2 K-1 s-1/2; candidato indice aparente 0.058 (1/K). No son comparables: la presion atmosferica cambia la inercia del mismo material.",
+            "Mineralogia (descriptiva): referencia ferrico 0.7, sulfato 0.2, arcilla 0.8, carbonato 0.7 (presencia 0-1 segun literatura). Sentinel-2 en el candidato: indice de oxido de hierro 3.00, arcilla/sulfato 1.34 (cocientes de reflectancia). Son magnitudes distintas; no se puntua.",
+            "Fisica del cuerpo: Marte tiene una atmosfera de ~0.6 % de la presion terrestre, gravedad ~0.38 g y mas radiacion en superficie; el transporte de polvo y el ambiente termico difieren."
+          ],
+          "mission_utility": "No demostrado para aterrizaje ni movilidad: esos requisitos en Marte estan definidos a escala de metros (InSight 2-84 m) y estas pendientes son a 463 m. Sirve como parecido de relieve a escala regional."
+        },
+        {
+          "robustness": "robusto",
+          "requirement_assessment": "no evaluable: requisitos de Marte definidos a escala de metros; pendiente medida a 463 m",
+          "site_id": "EARTH_NAMIB",
+          "name": "Namib - Sossusvlei (NA)",
+          "role": "validation",
+          "score_global": 59.5,
+          "score_global_meaning": "probabilidad (%) de quedar entre los 3 mas parecidos en relieve, con pesos desconocidos y error de medicion",
+          "p_top_k_solo_pesos": 59.7,
+          "expected_rank": 2.55,
+          "rank_acceptability": [
+            0.347,
+            0.178,
+            0.0697,
+            0.3877,
+            0.0176,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "central_weights": {
+            "slope_463m": 0.457,
+            "slope_1389m": 0.141,
+            "slope_4167m": 0.176,
+            "slope_12501m": 0.226
+          },
+          "weighted_distance_deg": {
+            "median": 0.845,
+            "p05": 0.557,
+            "p95": 1.108
+          },
+          "scores": {
+            "relieve_multiescala_distancia_deg": {
+              "slope_463m": 0.323,
+              "slope_1389m": 1.298,
+              "slope_4167m": 1.08,
+              "slope_12501m": 0.663
+            },
+            "inercia_termica": null,
+            "mineralogia": null,
+            "visual": null
+          },
+          "scores_note": "Solo el relieve entra al ranking; termica, mineralogia y visual son descriptivas (decision del equipo).",
+          "strongest_matches": [
+            "pendiente a 463m: distancia 0.32 grados (mediana 1.9 frente a 1.9)",
+            "pendiente a 12501m: distancia 0.66 grados (mediana 1.0 frente a 0.6)"
+          ],
+          "where_it_breaks_down": [
+            "Relieve: la escala menos parecida es 1389m (distancia 1.30 grados; mediana 1.7 frente a 1.0).",
+            "Inercia termica (descriptiva, fuera del ranking): referencia 253.3 J m-2 K-1 s-1/2; candidato indice aparente 0.042 (1/K). No son comparables: la presion atmosferica cambia la inercia del mismo material.",
+            "Mineralogia (descriptiva): referencia ferrico 0.7, sulfato 0.2, arcilla 0.8, carbonato 0.7 (presencia 0-1 segun literatura). Sentinel-2 en el candidato: indice de oxido de hierro 4.53, arcilla/sulfato 1.09 (cocientes de reflectancia). Son magnitudes distintas; no se puntua.",
+            "Datos: se excluyo 1 % de la ventana por ser mar.",
+            "Fisica del cuerpo: Marte tiene una atmosfera de ~0.6 % de la presion terrestre, gravedad ~0.38 g y mas radiacion en superficie; el transporte de polvo y el ambiente termico difieren."
+          ],
+          "mission_utility": "No demostrado para aterrizaje ni movilidad: esos requisitos en Marte estan definidos a escala de metros (InSight 2-84 m) y estas pendientes son a 463 m. Sirve como parecido de relieve a escala regional."
+        },
+        {
+          "robustness": "robusto",
+          "requirement_assessment": "no evaluable: requisitos de Marte definidos a escala de metros; pendiente medida a 463 m",
+          "site_id": "EARTH_SALINAS",
+          "name": "Salinas Grandes (AR)",
+          "role": "candidate",
+          "score_global": 54.7,
+          "score_global_meaning": "probabilidad (%) de quedar entre los 3 mas parecidos en relieve, con pesos desconocidos y error de medicion",
+          "p_top_k_solo_pesos": 54.2,
+          "expected_rank": 2.84,
+          "rank_acceptability": [
+            0.3267,
+            0.1785,
+            0.0414,
+            0.2753,
+            0.1395,
+            0.0386,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "central_weights": {
+            "slope_463m": 0.089,
+            "slope_1389m": 0.176,
+            "slope_4167m": 0.35,
+            "slope_12501m": 0.384
+          },
+          "weighted_distance_deg": {
+            "median": 0.891,
+            "p05": 0.493,
+            "p95": 1.402
+          },
+          "scores": {
+            "relieve_multiescala_distancia_deg": {
+              "slope_463m": 1.868,
+              "slope_1389m": 1.052,
+              "slope_4167m": 0.513,
+              "slope_12501m": 0.233
+            },
+            "inercia_termica": null,
+            "mineralogia": null,
+            "visual": null
+          },
+          "scores_note": "Solo el relieve entra al ranking; termica, mineralogia y visual son descriptivas (decision del equipo).",
+          "strongest_matches": [
+            "pendiente a 12501m: distancia 0.23 grados (mediana 1.0 frente a 1.1)",
+            "pendiente a 4167m: distancia 0.51 grados (mediana 1.3 frente a 1.5)"
+          ],
+          "where_it_breaks_down": [
+            "Relieve: la escala menos parecida es 463m (distancia 1.87 grados; mediana 1.9 frente a 2.2).",
+            "Inercia termica (descriptiva, fuera del ranking): referencia 253.3 J m-2 K-1 s-1/2; candidato indice aparente 0.036 (1/K). No son comparables: la presion atmosferica cambia la inercia del mismo material. Ademas este sitio esta a ~3734 m: la oscilacion dia-noche se amplifica por la atmosfera delgada.",
+            "Mineralogia (descriptiva): referencia ferrico 0.7, sulfato 0.2, arcilla 0.8, carbonato 0.7 (presencia 0-1 segun literatura). Sentinel-2 en el candidato: indice de oxido de hierro 1.97, arcilla/sulfato 2.18 (cocientes de reflectancia). Son magnitudes distintas; no se puntua.",
+            "Fisica del cuerpo: Marte tiene una atmosfera de ~0.6 % de la presion terrestre, gravedad ~0.38 g y mas radiacion en superficie; el transporte de polvo y el ambiente termico difieren."
+          ],
+          "mission_utility": "No demostrado para aterrizaje ni movilidad: esos requisitos en Marte estan definidos a escala de metros (InSight 2-84 m) y estas pendientes son a 463 m. Sirve como parecido de relieve a escala regional."
+        },
+        {
+          "robustness": "robusto",
+          "requirement_assessment": "no evaluable: requisitos de Marte definidos a escala de metros; pendiente medida a 463 m",
+          "site_id": "EARTH_PINACATE",
+          "name": "Campo Volcanico El Pinacate (MX)",
+          "role": "candidate",
+          "score_global": 0.0,
+          "score_global_meaning": "probabilidad (%) de quedar entre los 3 mas parecidos en relieve, con pesos desconocidos y error de medicion",
+          "p_top_k_solo_pesos": 0.0,
+          "expected_rank": 4.79,
+          "rank_acceptability": [
+            0.0,
+            0.0,
+            0.0,
+            0.2079,
+            0.7921,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "central_weights": {
+            "slope_463m": null,
+            "slope_1389m": null,
+            "slope_4167m": null,
+            "slope_12501m": null
+          },
+          "weighted_distance_deg": {
+            "median": 1.104,
+            "p05": 0.873,
+            "p95": 1.276
+          },
+          "scores": {
+            "relieve_multiescala_distancia_deg": {
+              "slope_463m": 1.301,
+              "slope_1389m": 1.382,
+              "slope_4167m": 1.019,
+              "slope_12501m": 0.682
+            },
+            "inercia_termica": null,
+            "mineralogia": null,
+            "visual": null
+          },
+          "scores_note": "Solo el relieve entra al ranking; termica, mineralogia y visual son descriptivas (decision del equipo).",
+          "strongest_matches": [
+            "pendiente a 12501m: distancia 0.68 grados (mediana 1.0 frente a 0.4)",
+            "pendiente a 4167m: distancia 1.02 grados (mediana 1.3 frente a 0.5)"
+          ],
+          "where_it_breaks_down": [
+            "Relieve: la escala menos parecida es 1389m (distancia 1.38 grados; mediana 1.7 frente a 0.6).",
+            "Inercia termica (descriptiva, fuera del ranking): referencia 253.3 J m-2 K-1 s-1/2; candidato indice aparente 0.039 (1/K). No son comparables: la presion atmosferica cambia la inercia del mismo material.",
+            "Mineralogia (descriptiva): referencia ferrico 0.7, sulfato 0.2, arcilla 0.8, carbonato 0.7 (presencia 0-1 segun literatura). Sentinel-2 en el candidato: indice de oxido de hierro 6.38, arcilla/sulfato 1.28 (cocientes de reflectancia). Son magnitudes distintas; no se puntua.",
+            "Datos: se excluyo 3 % de la ventana por ser mar.",
+            "Fisica del cuerpo: Marte tiene una atmosfera de ~0.6 % de la presion terrestre, gravedad ~0.38 g y mas radiacion en superficie; el transporte de polvo y el ambiente termico difieren."
+          ],
+          "mission_utility": "No demostrado para aterrizaje ni movilidad: esos requisitos en Marte estan definidos a escala de metros (InSight 2-84 m) y estas pendientes son a 463 m. Sirve como parecido de relieve a escala regional."
+        },
+        {
+          "robustness": "robusto",
+          "requirement_assessment": "no evaluable: requisitos de Marte definidos a escala de metros; pendiente medida a 463 m",
+          "site_id": "EARTH_SAHARA",
+          "name": "Erg Chebbi - Sahara (MA)",
+          "role": "validation",
+          "score_global": 0.0,
+          "score_global_meaning": "probabilidad (%) de quedar entre los 3 mas parecidos en relieve, con pesos desconocidos y error de medicion",
+          "p_top_k_solo_pesos": 0.0,
+          "expected_rank": 5.96,
+          "rank_acceptability": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0386,
+            0.9614,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "central_weights": {
+            "slope_463m": null,
+            "slope_1389m": null,
+            "slope_4167m": null,
+            "slope_12501m": null
+          },
+          "weighted_distance_deg": {
+            "median": 1.312,
+            "p05": 1.069,
+            "p95": 1.496
+          },
+          "scores": {
+            "relieve_multiescala_distancia_deg": {
+              "slope_463m": 1.549,
+              "slope_1389m": 1.593,
+              "slope_4167m": 1.208,
+              "slope_12501m": 0.87
+            },
+            "inercia_termica": null,
+            "mineralogia": null,
+            "visual": null
+          },
+          "scores_note": "Solo el relieve entra al ranking; termica, mineralogia y visual son descriptivas (decision del equipo).",
+          "strongest_matches": [
+            "pendiente a 12501m: distancia 0.87 grados (mediana 1.0 frente a 0.3)",
+            "pendiente a 4167m: distancia 1.21 grados (mediana 1.3 frente a 0.4)"
+          ],
+          "where_it_breaks_down": [
+            "Relieve: la escala menos parecida es 1389m (distancia 1.59 grados; mediana 1.7 frente a 0.4).",
+            "Inercia termica (descriptiva, fuera del ranking): referencia 253.3 J m-2 K-1 s-1/2; candidato indice aparente 0.028 (1/K). No son comparables: la presion atmosferica cambia la inercia del mismo material.",
+            "Mineralogia (descriptiva): referencia ferrico 0.7, sulfato 0.2, arcilla 0.8, carbonato 0.7 (presencia 0-1 segun literatura). Sentinel-2 en el candidato: indice de oxido de hierro 16.36, arcilla/sulfato 1.01 (cocientes de reflectancia). Son magnitudes distintas; no se puntua.",
+            "Fisica del cuerpo: Marte tiene una atmosfera de ~0.6 % de la presion terrestre, gravedad ~0.38 g y mas radiacion en superficie; el transporte de polvo y el ambiente termico difieren."
+          ],
+          "mission_utility": "No demostrado para aterrizaje ni movilidad: esos requisitos en Marte estan definidos a escala de metros (InSight 2-84 m) y estas pendientes son a 463 m. Sirve como parecido de relieve a escala regional."
+        },
+        {
+          "robustness": "robusto",
+          "requirement_assessment": "no evaluable: requisitos de Marte definidos a escala de metros; pendiente medida a 463 m",
+          "site_id": "EARTH_GAIRDNER",
+          "name": "Lake Gairdner (AU)",
+          "role": "validation",
+          "score_global": 0.0,
+          "score_global_meaning": "probabilidad (%) de quedar entre los 3 mas parecidos en relieve, con pesos desconocidos y error de medicion",
+          "p_top_k_solo_pesos": 0.0,
+          "expected_rank": 7.0,
+          "rank_acceptability": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "central_weights": {
+            "slope_463m": null,
+            "slope_1389m": null,
+            "slope_4167m": null,
+            "slope_12501m": null
+          },
+          "weighted_distance_deg": {
+            "median": 1.595,
+            "p05": 1.291,
+            "p95": 1.819
+          },
+          "scores": {
+            "relieve_multiescala_distancia_deg": {
+              "slope_463m": 1.909,
+              "slope_1389m": 1.911,
+              "slope_4167m": 1.481,
+              "slope_12501m": 1.036
+            },
+            "inercia_termica": null,
+            "mineralogia": null,
+            "visual": null
+          },
+          "scores_note": "Solo el relieve entra al ranking; termica, mineralogia y visual son descriptivas (decision del equipo).",
+          "strongest_matches": [
+            "pendiente a 12501m: distancia 1.04 grados (mediana 1.0 frente a 0.2)",
+            "pendiente a 4167m: distancia 1.48 grados (mediana 1.3 frente a 0.3)"
+          ],
+          "where_it_breaks_down": [
+            "Relieve: la escala menos parecida es 1389m (distancia 1.91 grados; mediana 1.7 frente a 0.4).",
+            "Inercia termica (descriptiva, fuera del ranking): referencia 253.3 J m-2 K-1 s-1/2; candidato indice aparente 0.153 (1/K). No son comparables: la presion atmosferica cambia la inercia del mismo material.",
+            "Mineralogia (descriptiva): referencia ferrico 0.7, sulfato 0.2, arcilla 0.8, carbonato 0.7 (presencia 0-1 segun literatura). Sentinel-2 en el candidato: indice de oxido de hierro 2.27, arcilla/sulfato 1.42 (cocientes de reflectancia). Son magnitudes distintas; no se puntua.",
+            "Datos: se excluyo 33 % por cotas editadas (cuerpo de agua aplanado en Copernicus); el relieve se mide solo en el entorno.",
+            "Fisica del cuerpo: Marte tiene una atmosfera de ~0.6 % de la presion terrestre, gravedad ~0.38 g y mas radiacion en superficie; el transporte de polvo y el ambiente termico difieren."
+          ],
+          "mission_utility": "No demostrado para aterrizaje ni movilidad: esos requisitos en Marte estan definidos a escala de metros (InSight 2-84 m) y estas pendientes son a 463 m. Sirve como parecido de relieve a escala regional."
+        },
+        {
+          "robustness": "robusto",
+          "requirement_assessment": "no evaluable: requisitos de Marte definidos a escala de metros; pendiente medida a 463 m",
+          "site_id": "EARTH_SECHURA",
+          "name": "Desierto de Sechura (PE)",
+          "role": "candidate",
+          "score_global": 0.0,
+          "score_global_meaning": "probabilidad (%) de quedar entre los 3 mas parecidos en relieve, con pesos desconocidos y error de medicion",
+          "p_top_k_solo_pesos": 0.0,
+          "expected_rank": 8.0,
+          "rank_acceptability": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "central_weights": {
+            "slope_463m": null,
+            "slope_1389m": null,
+            "slope_4167m": null,
+            "slope_12501m": null
+          },
+          "weighted_distance_deg": {
+            "median": 1.792,
+            "p05": 1.383,
+            "p95": 2.133
+          },
+          "scores": {
+            "relieve_multiescala_distancia_deg": {
+              "slope_463m": 2.383,
+              "slope_1389m": 2.164,
+              "slope_4167m": 1.561,
+              "slope_12501m": 1.056
+            },
+            "inercia_termica": null,
+            "mineralogia": null,
+            "visual": null
+          },
+          "scores_note": "Solo el relieve entra al ranking; termica, mineralogia y visual son descriptivas (decision del equipo).",
+          "strongest_matches": [
+            "pendiente a 12501m: distancia 1.06 grados (mediana 1.0 frente a 0.1)",
+            "pendiente a 4167m: distancia 1.56 grados (mediana 1.3 frente a 0.2)"
+          ],
+          "where_it_breaks_down": [
+            "Relieve: la escala menos parecida es 463m (distancia 2.38 grados; mediana 1.9 frente a 0.2).",
+            "Inercia termica (descriptiva, fuera del ranking): referencia 253.3 J m-2 K-1 s-1/2; candidato indice aparente 0.086 (1/K). No son comparables: la presion atmosferica cambia la inercia del mismo material.",
+            "Mineralogia (descriptiva): referencia ferrico 0.7, sulfato 0.2, arcilla 0.8, carbonato 0.7 (presencia 0-1 segun literatura). Sentinel-2 en el candidato: indice de oxido de hierro 2.30, arcilla/sulfato 1.23 (cocientes de reflectancia). Son magnitudes distintas; no se puntua.",
+            "Datos: se excluyo 10 % de la ventana por ser mar.",
+            "Fisica del cuerpo: Marte tiene una atmosfera de ~0.6 % de la presion terrestre, gravedad ~0.38 g y mas radiacion en superficie; el transporte de polvo y el ambiente termico difieren."
+          ],
+          "mission_utility": "No demostrado para aterrizaje ni movilidad: esos requisitos en Marte estan definidos a escala de metros (InSight 2-84 m) y estas pendientes son a 463 m. Sirve como parecido de relieve a escala regional."
+        },
+        {
+          "robustness": "robusto",
+          "requirement_assessment": "no evaluable: requisitos de Marte definidos a escala de metros; pendiente medida a 463 m",
+          "site_id": "EARTH_CARACHI",
+          "name": "Cono y Salar Carachi Pampa (AR)",
+          "role": "candidate",
+          "score_global": 0.0,
+          "score_global_meaning": "probabilidad (%) de quedar entre los 3 mas parecidos en relieve, con pesos desconocidos y error de medicion",
+          "p_top_k_solo_pesos": 0.0,
+          "expected_rank": 9.32,
+          "rank_acceptability": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.6823,
+            0.3177,
+            0.0,
+            0.0
+          ],
+          "central_weights": {
+            "slope_463m": null,
+            "slope_1389m": null,
+            "slope_4167m": null,
+            "slope_12501m": null
+          },
+          "weighted_distance_deg": {
+            "median": 2.358,
+            "p05": 1.704,
+            "p95": 3.033
+          },
+          "scores": {
+            "relieve_multiescala_distancia_deg": {
+              "slope_463m": 3.609,
+              "slope_1389m": 2.704,
+              "slope_4167m": 1.971,
+              "slope_12501m": 1.179
+            },
+            "inercia_termica": null,
+            "mineralogia": null,
+            "visual": null
+          },
+          "scores_note": "Solo el relieve entra al ranking; termica, mineralogia y visual son descriptivas (decision del equipo).",
+          "strongest_matches": [
+            "pendiente a 12501m: distancia 1.18 grados (mediana 1.0 frente a 2.2)",
+            "pendiente a 4167m: distancia 1.97 grados (mediana 1.3 frente a 3.1)"
+          ],
+          "where_it_breaks_down": [
+            "Relieve: la escala menos parecida es 463m (distancia 3.61 grados; mediana 1.9 frente a 4.5).",
+            "Inercia termica (descriptiva, fuera del ranking): referencia 253.3 J m-2 K-1 s-1/2; candidato indice aparente 0.040 (1/K). No son comparables: la presion atmosferica cambia la inercia del mismo material. Ademas este sitio esta a ~3898 m: la oscilacion dia-noche se amplifica por la atmosfera delgada.",
+            "Mineralogia (descriptiva): referencia ferrico 0.7, sulfato 0.2, arcilla 0.8, carbonato 0.7 (presencia 0-1 segun literatura). Sentinel-2 en el candidato: indice de oxido de hierro 2.21, arcilla/sulfato 1.05 (cocientes de reflectancia). Son magnitudes distintas; no se puntua.",
+            "Fisica del cuerpo: Marte tiene una atmosfera de ~0.6 % de la presion terrestre, gravedad ~0.38 g y mas radiacion en superficie; el transporte de polvo y el ambiente termico difieren."
+          ],
+          "mission_utility": "No demostrado para aterrizaje ni movilidad: esos requisitos en Marte estan definidos a escala de metros (InSight 2-84 m) y estas pendientes son a 463 m. Sirve como parecido de relieve a escala regional."
+        },
+        {
+          "robustness": "robusto",
+          "requirement_assessment": "no evaluable: requisitos de Marte definidos a escala de metros; pendiente medida a 463 m",
+          "site_id": "EARTH_PIEDRA_POMEZ",
+          "name": "Campo de Piedra Pomez (AR)",
+          "role": "candidate",
+          "score_global": 0.0,
+          "score_global_meaning": "probabilidad (%) de quedar entre los 3 mas parecidos en relieve, con pesos desconocidos y error de medicion",
+          "p_top_k_solo_pesos": 0.0,
+          "expected_rank": 9.68,
+          "rank_acceptability": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.3177,
+            0.6823,
+            0.0,
+            0.0
+          ],
+          "central_weights": {
+            "slope_463m": null,
+            "slope_1389m": null,
+            "slope_4167m": null,
+            "slope_12501m": null
+          },
+          "weighted_distance_deg": {
+            "median": 2.399,
+            "p05": 1.631,
+            "p95": 3.241
+          },
+          "scores": {
+            "relieve_multiescala_distancia_deg": {
+              "slope_463m": 3.968,
+              "slope_1389m": 2.776,
+              "slope_4167m": 1.884,
+              "slope_12501m": 1.033
+            },
+            "inercia_termica": null,
+            "mineralogia": null,
+            "visual": null
+          },
+          "scores_note": "Solo el relieve entra al ranking; termica, mineralogia y visual son descriptivas (decision del equipo).",
+          "strongest_matches": [
+            "pendiente a 12501m: distancia 1.03 grados (mediana 1.0 frente a 2.1)",
+            "pendiente a 4167m: distancia 1.88 grados (mediana 1.3 frente a 3.1)"
+          ],
+          "where_it_breaks_down": [
+            "Relieve: la escala menos parecida es 463m (distancia 3.97 grados; mediana 1.9 frente a 4.9).",
+            "Inercia termica (descriptiva, fuera del ranking): referencia 253.3 J m-2 K-1 s-1/2; candidato indice aparente 0.046 (1/K). No son comparables: la presion atmosferica cambia la inercia del mismo material. Ademas este sitio esta a ~3883 m: la oscilacion dia-noche se amplifica por la atmosfera delgada.",
+            "Mineralogia (descriptiva): referencia ferrico 0.7, sulfato 0.2, arcilla 0.8, carbonato 0.7 (presencia 0-1 segun literatura). Sentinel-2 en el candidato: indice de oxido de hierro 1.64, arcilla/sulfato 0.93 (cocientes de reflectancia). Son magnitudes distintas; no se puntua.",
+            "Fisica del cuerpo: Marte tiene una atmosfera de ~0.6 % de la presion terrestre, gravedad ~0.38 g y mas radiacion en superficie; el transporte de polvo y el ambiente termico difieren."
+          ],
+          "mission_utility": "No demostrado para aterrizaje ni movilidad: esos requisitos en Marte estan definidos a escala de metros (InSight 2-84 m) y estas pendientes son a 463 m. Sirve como parecido de relieve a escala regional."
+        },
+        {
+          "robustness": "robusto",
+          "requirement_assessment": "no evaluable: requisitos de Marte definidos a escala de metros; pendiente medida a 463 m",
+          "site_id": "EARTH_ANTOFALLA",
+          "name": "Puna - Antofalla (AR)",
+          "role": "candidate",
+          "score_global": 0.0,
+          "score_global_meaning": "probabilidad (%) de quedar entre los 3 mas parecidos en relieve, con pesos desconocidos y error de medicion",
+          "p_top_k_solo_pesos": 0.0,
+          "expected_rank": 11.0,
+          "rank_acceptability": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          "central_weights": {
+            "slope_463m": null,
+            "slope_1389m": null,
+            "slope_4167m": null,
+            "slope_12501m": null
+          },
+          "weighted_distance_deg": {
+            "median": 3.088,
+            "p05": 2.348,
+            "p95": 3.683
+          },
+          "scores": {
+            "relieve_multiescala_distancia_deg": {
+              "slope_463m": 4.177,
+              "slope_1389m": 3.459,
+              "slope_4167m": 2.915,
+              "slope_12501m": 1.706
+            },
+            "inercia_termica": null,
+            "mineralogia": null,
+            "visual": null
+          },
+          "scores_note": "Solo el relieve entra al ranking; termica, mineralogia y visual son descriptivas (decision del equipo).",
+          "strongest_matches": [
+            "pendiente a 12501m: distancia 1.71 grados (mediana 1.0 frente a 2.8)",
+            "pendiente a 4167m: distancia 2.91 grados (mediana 1.3 frente a 4.2)"
+          ],
+          "where_it_breaks_down": [
+            "Relieve: la escala menos parecida es 463m (distancia 4.18 grados; mediana 1.9 frente a 5.7).",
+            "Inercia termica (descriptiva, fuera del ranking): referencia 253.3 J m-2 K-1 s-1/2; candidato indice aparente 0.035 (1/K). No son comparables: la presion atmosferica cambia la inercia del mismo material. Ademas este sitio esta a ~4218 m: la oscilacion dia-noche se amplifica por la atmosfera delgada.",
+            "Mineralogia (descriptiva): referencia ferrico 0.7, sulfato 0.2, arcilla 0.8, carbonato 0.7 (presencia 0-1 segun literatura). Sentinel-2 en el candidato: indice de oxido de hierro 3.16, arcilla/sulfato 1.13 (cocientes de reflectancia). Son magnitudes distintas; no se puntua.",
+            "Fisica del cuerpo: Marte tiene una atmosfera de ~0.6 % de la presion terrestre, gravedad ~0.38 g y mas radiacion en superficie; el transporte de polvo y el ambiente termico difieren."
+          ],
+          "mission_utility": "No demostrado para aterrizaje ni movilidad: esos requisitos en Marte estan definidos a escala de metros (InSight 2-84 m) y estas pendientes son a 463 m. Sirve como parecido de relieve a escala regional."
+        },
+        {
+          "robustness": "robusto",
+          "requirement_assessment": "no evaluable: requisitos de Marte definidos a escala de metros; pendiente medida a 463 m",
+          "site_id": "EARTH_ANDAHUA",
+          "name": "Valle de los Volcanes Andahua (PE)",
+          "role": "candidate",
+          "score_global": 0.0,
+          "score_global_meaning": "probabilidad (%) de quedar entre los 3 mas parecidos en relieve, con pesos desconocidos y error de medicion",
+          "p_top_k_solo_pesos": 0.0,
+          "expected_rank": 12.0,
+          "rank_acceptability": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "central_weights": {
+            "slope_463m": null,
+            "slope_1389m": null,
+            "slope_4167m": null,
+            "slope_12501m": null
+          },
+          "weighted_distance_deg": {
+            "median": 5.154,
+            "p05": 3.437,
+            "p95": 6.884
+          },
+          "scores": {
+            "relieve_multiescala_distancia_deg": {
+              "slope_463m": 8.335,
+              "slope_1389m": 6.189,
+              "slope_4167m": 4.032,
+              "slope_12501m": 2.095
+            },
+            "inercia_termica": null,
+            "mineralogia": null,
+            "visual": null
+          },
+          "scores_note": "Solo el relieve entra al ranking; termica, mineralogia y visual son descriptivas (decision del equipo).",
+          "strongest_matches": [
+            "pendiente a 12501m: distancia 2.09 grados (mediana 1.0 frente a 2.6)",
+            "pendiente a 4167m: distancia 4.03 grados (mediana 1.3 frente a 4.2)"
+          ],
+          "where_it_breaks_down": [
+            "Relieve: la escala menos parecida es 463m (distancia 8.33 grados; mediana 1.9 frente a 8.2).",
+            "Inercia termica (descriptiva, fuera del ranking): referencia 253.3 J m-2 K-1 s-1/2; candidato indice aparente 0.036 (1/K). No son comparables: la presion atmosferica cambia la inercia del mismo material. Ademas este sitio esta a ~4278 m: la oscilacion dia-noche se amplifica por la atmosfera delgada.",
+            "Mineralogia (descriptiva): referencia ferrico 0.7, sulfato 0.2, arcilla 0.8, carbonato 0.7 (presencia 0-1 segun literatura). Sentinel-2 en el candidato: indice de oxido de hierro 4.92, arcilla/sulfato 1.26 (cocientes de reflectancia). Son magnitudes distintas; no se puntua.",
+            "Fisica del cuerpo: Marte tiene una atmosfera de ~0.6 % de la presion terrestre, gravedad ~0.38 g y mas radiacion en superficie; el transporte de polvo y el ambiente termico difieren."
+          ],
+          "mission_utility": "No demostrado para aterrizaje ni movilidad: esos requisitos en Marte estan definidos a escala de metros (InSight 2-84 m) y estas pendientes son a 463 m. Sirve como parecido de relieve a escala regional."
+        }
+      ]
+    },
+    {
+      "ref_site_id": "MARS_GALE",
+      "ref_name": "Gale Crater",
+      "ref_relief_summary": {
+        "sea_frac_masked": 0.0,
+        "edited_plateau_frac_masked": 0.0,
+        "valid_frac": 1.0,
+        "slope_463m": {
+          "n": 37249,
+          "p10": 0.6370106359892918,
+          "median": 3.7072871251571895,
+          "p90": 13.780186496394206
+        },
+        "requirement_fractions": {
+          "R03_lt5": 0.5785927138983596,
+          "R01_lt10": 0.8141963542645441,
+          "R04_lt15": 0.9212059384144541,
+          "R02_lt20": 0.9792746113989638
+        },
+        "requirement_scale_m": 463.0,
+        "slope_1389m": {
+          "n": 36481,
+          "p10": 0.6456319984638704,
+          "median": 3.712987860260286,
+          "p90": 13.215400903589348
+        },
+        "slope_4167m": {
+          "n": 34225,
+          "p10": 0.6535036546463497,
+          "median": 3.882058652949308,
+          "p90": 12.121543733233384
+        },
+        "slope_12501m": {
+          "n": 27889,
+          "p10": 0.7518045607141609,
+          "median": 3.5672166219558274,
+          "p90": 9.245043625540074
+        }
+      },
+      "candidates": [
+        {
+          "robustness": "robusto",
+          "requirement_assessment": "no evaluable: requisitos de Marte definidos a escala de metros; pendiente medida a 463 m",
+          "site_id": "EARTH_CARACHI",
+          "name": "Cono y Salar Carachi Pampa (AR)",
+          "role": "candidate",
+          "score_global": 100.0,
+          "score_global_meaning": "probabilidad (%) de quedar entre los 3 mas parecidos en relieve, con pesos desconocidos y error de medicion",
+          "p_top_k_solo_pesos": 100.0,
+          "expected_rank": 1.69,
+          "rank_acceptability": [
+            0.4472,
+            0.4152,
+            0.1376,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "central_weights": {
+            "slope_463m": 0.395,
+            "slope_1389m": 0.292,
+            "slope_4167m": 0.165,
+            "slope_12501m": 0.147
+          },
+          "weighted_distance_deg": {
+            "median": 1.352,
+            "p05": 0.991,
+            "p95": 1.751
+          },
+          "scores": {
+            "relieve_multiescala_distancia_deg": {
+              "slope_463m": 0.81,
+              "slope_1389m": 0.904,
+              "slope_4167m": 1.674,
+              "slope_12501m": 2.043
+            },
+            "inercia_termica": null,
+            "mineralogia": null,
+            "visual": null
+          },
+          "scores_note": "Solo el relieve entra al ranking; termica, mineralogia y visual son descriptivas (decision del equipo).",
+          "strongest_matches": [
+            "pendiente a 463m: distancia 0.81 grados (mediana 3.7 frente a 4.5)",
+            "pendiente a 1389m: distancia 0.90 grados (mediana 3.7 frente a 3.9)"
+          ],
+          "where_it_breaks_down": [
+            "Relieve: la escala menos parecida es 12501m (distancia 2.04 grados; mediana 3.6 frente a 2.2).",
+            "Inercia termica (descriptiva, fuera del ranking): referencia 221.4 J m-2 K-1 s-1/2; candidato indice aparente 0.040 (1/K). No son comparables: la presion atmosferica cambia la inercia del mismo material. Ademas este sitio esta a ~3898 m: la oscilacion dia-noche se amplifica por la atmosfera delgada.",
+            "Mineralogia (descriptiva): referencia ferrico 0.8, sulfato 0.7, arcilla 0.7, carbonato 0.1 (presencia 0-1 segun literatura). Sentinel-2 en el candidato: indice de oxido de hierro 2.21, arcilla/sulfato 1.05 (cocientes de reflectancia). Son magnitudes distintas; no se puntua.",
+            "Fisica del cuerpo: Marte tiene una atmosfera de ~0.6 % de la presion terrestre, gravedad ~0.38 g y mas radiacion en superficie; el transporte de polvo y el ambiente termico difieren."
+          ],
+          "mission_utility": "No demostrado para aterrizaje ni movilidad: esos requisitos en Marte estan definidos a escala de metros (InSight 2-84 m) y estas pendientes son a 463 m. Sirve como parecido de relieve a escala regional."
+        },
+        {
+          "robustness": "robusto",
+          "requirement_assessment": "no evaluable: requisitos de Marte definidos a escala de metros; pendiente medida a 463 m",
+          "site_id": "EARTH_ANTOFALLA",
+          "name": "Puna - Antofalla (AR)",
+          "role": "candidate",
+          "score_global": 100.0,
+          "score_global_meaning": "probabilidad (%) de quedar entre los 3 mas parecidos en relieve, con pesos desconocidos y error de medicion",
+          "p_top_k_solo_pesos": 100.0,
+          "expected_rank": 1.71,
+          "rank_acceptability": [
+            0.4699,
+            0.353,
+            0.1771,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "central_weights": {
+            "slope_463m": 0.146,
+            "slope_1389m": 0.241,
+            "slope_4167m": 0.296,
+            "slope_12501m": 0.317
+          },
+          "weighted_distance_deg": {
+            "median": 1.349,
+            "p05": 1.177,
+            "p95": 1.495
+          },
+          "scores": {
+            "relieve_multiescala_distancia_deg": {
+              "slope_463m": 1.393,
+              "slope_1389m": 1.023,
+              "slope_4167m": 1.355,
+              "slope_12501m": 1.614
+            },
+            "inercia_termica": null,
+            "mineralogia": null,
+            "visual": null
+          },
+          "scores_note": "Solo el relieve entra al ranking; termica, mineralogia y visual son descriptivas (decision del equipo).",
+          "strongest_matches": [
+            "pendiente a 1389m: distancia 1.02 grados (mediana 3.7 frente a 5.0)",
+            "pendiente a 4167m: distancia 1.36 grados (mediana 3.9 frente a 4.2)"
+          ],
+          "where_it_breaks_down": [
+            "Relieve: la escala menos parecida es 12501m (distancia 1.61 grados; mediana 3.6 frente a 2.8).",
+            "Inercia termica (descriptiva, fuera del ranking): referencia 221.4 J m-2 K-1 s-1/2; candidato indice aparente 0.035 (1/K). No son comparables: la presion atmosferica cambia la inercia del mismo material. Ademas este sitio esta a ~4218 m: la oscilacion dia-noche se amplifica por la atmosfera delgada.",
+            "Mineralogia (descriptiva): referencia ferrico 0.8, sulfato 0.7, arcilla 0.7, carbonato 0.1 (presencia 0-1 segun literatura). Sentinel-2 en el candidato: indice de oxido de hierro 3.16, arcilla/sulfato 1.13 (cocientes de reflectancia). Son magnitudes distintas; no se puntua.",
+            "Fisica del cuerpo: Marte tiene una atmosfera de ~0.6 % de la presion terrestre, gravedad ~0.38 g y mas radiacion en superficie; el transporte de polvo y el ambiente termico difieren."
+          ],
+          "mission_utility": "No demostrado para aterrizaje ni movilidad: esos requisitos en Marte estan definidos a escala de metros (InSight 2-84 m) y estas pendientes son a 463 m. Sirve como parecido de relieve a escala regional."
+        },
+        {
+          "robustness": "robusto",
+          "requirement_assessment": "no evaluable: requisitos de Marte definidos a escala de metros; pendiente medida a 463 m",
+          "site_id": "EARTH_PIEDRA_POMEZ",
+          "name": "Campo de Piedra Pomez (AR)",
+          "role": "candidate",
+          "score_global": 83.5,
+          "score_global_meaning": "probabilidad (%) de quedar entre los 3 mas parecidos en relieve, con pesos desconocidos y error de medicion",
+          "p_top_k_solo_pesos": 83.6,
+          "expected_rank": 2.99,
+          "rank_acceptability": [
+            0.0003,
+            0.1768,
+            0.658,
+            0.1649,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "central_weights": {
+            "slope_463m": 0.005,
+            "slope_1389m": 0.939,
+            "slope_4167m": 0.015,
+            "slope_12501m": 0.041
+          },
+          "weighted_distance_deg": {
+            "median": 1.493,
+            "p05": 1.14,
+            "p95": 1.875
+          },
+          "scores": {
+            "relieve_multiescala_distancia_deg": {
+              "slope_463m": 1.171,
+              "slope_1389m": 0.891,
+              "slope_4167m": 1.756,
+              "slope_12501m": 2.172
+            },
+            "inercia_termica": null,
+            "mineralogia": null,
+            "visual": null
+          },
+          "scores_note": "Solo el relieve entra al ranking; termica, mineralogia y visual son descriptivas (decision del equipo).",
+          "strongest_matches": [
+            "pendiente a 1389m: distancia 0.89 grados (mediana 3.7 frente a 4.0)",
+            "pendiente a 463m: distancia 1.17 grados (mediana 3.7 frente a 4.9)"
+          ],
+          "where_it_breaks_down": [
+            "Relieve: la escala menos parecida es 12501m (distancia 2.17 grados; mediana 3.6 frente a 2.1).",
+            "Inercia termica (descriptiva, fuera del ranking): referencia 221.4 J m-2 K-1 s-1/2; candidato indice aparente 0.046 (1/K). No son comparables: la presion atmosferica cambia la inercia del mismo material. Ademas este sitio esta a ~3883 m: la oscilacion dia-noche se amplifica por la atmosfera delgada.",
+            "Mineralogia (descriptiva): referencia ferrico 0.8, sulfato 0.7, arcilla 0.7, carbonato 0.1 (presencia 0-1 segun literatura). Sentinel-2 en el candidato: indice de oxido de hierro 1.64, arcilla/sulfato 0.93 (cocientes de reflectancia). Son magnitudes distintas; no se puntua.",
+            "Fisica del cuerpo: Marte tiene una atmosfera de ~0.6 % de la presion terrestre, gravedad ~0.38 g y mas radiacion en superficie; el transporte de polvo y el ambiente termico difieren."
+          ],
+          "mission_utility": "No demostrado para aterrizaje ni movilidad: esos requisitos en Marte estan definidos a escala de metros (InSight 2-84 m) y estas pendientes son a 463 m. Sirve como parecido de relieve a escala regional."
+        },
+        {
+          "robustness": "robusto",
+          "requirement_assessment": "no evaluable: requisitos de Marte definidos a escala de metros; pendiente medida a 463 m",
+          "site_id": "EARTH_ANDAHUA",
+          "name": "Valle de los Volcanes Andahua (PE)",
+          "role": "candidate",
+          "score_global": 16.5,
+          "score_global_meaning": "probabilidad (%) de quedar entre los 3 mas parecidos en relieve, con pesos desconocidos y error de medicion",
+          "p_top_k_solo_pesos": 16.4,
+          "expected_rank": 4.96,
+          "rank_acceptability": [
+            0.0826,
+            0.055,
+            0.0273,
+            0.2606,
+            0.0806,
+            0.382,
+            0.028,
+            0.0393,
+            0.0195,
+            0.0167,
+            0.0075,
+            0.0009
+          ],
+          "central_weights": {
+            "slope_463m": 0.045,
+            "slope_1389m": 0.075,
+            "slope_4167m": 0.461,
+            "slope_12501m": 0.418
+          },
+          "weighted_distance_deg": {
+            "median": 2.522,
+            "p05": 1.296,
+            "p95": 4.117
+          },
+          "scores": {
+            "relieve_multiescala_distancia_deg": {
+              "slope_463m": 5.505,
+              "slope_1389m": 3.151,
+              "slope_4167m": 0.609,
+              "slope_12501m": 1.103
+            },
+            "inercia_termica": null,
+            "mineralogia": null,
+            "visual": null
+          },
+          "scores_note": "Solo el relieve entra al ranking; termica, mineralogia y visual son descriptivas (decision del equipo).",
+          "strongest_matches": [
+            "pendiente a 4167m: distancia 0.61 grados (mediana 3.9 frente a 4.2)",
+            "pendiente a 12501m: distancia 1.10 grados (mediana 3.6 frente a 2.6)"
+          ],
+          "where_it_breaks_down": [
+            "Relieve: la escala menos parecida es 463m (distancia 5.50 grados; mediana 3.7 frente a 8.2).",
+            "Inercia termica (descriptiva, fuera del ranking): referencia 221.4 J m-2 K-1 s-1/2; candidato indice aparente 0.036 (1/K). No son comparables: la presion atmosferica cambia la inercia del mismo material. Ademas este sitio esta a ~4278 m: la oscilacion dia-noche se amplifica por la atmosfera delgada.",
+            "Mineralogia (descriptiva): referencia ferrico 0.8, sulfato 0.7, arcilla 0.7, carbonato 0.1 (presencia 0-1 segun literatura). Sentinel-2 en el candidato: indice de oxido de hierro 4.92, arcilla/sulfato 1.26 (cocientes de reflectancia). Son magnitudes distintas; no se puntua.",
+            "Fisica del cuerpo: Marte tiene una atmosfera de ~0.6 % de la presion terrestre, gravedad ~0.38 g y mas radiacion en superficie; el transporte de polvo y el ambiente termico difieren."
+          ],
+          "mission_utility": "No demostrado para aterrizaje ni movilidad: esos requisitos en Marte estan definidos a escala de metros (InSight 2-84 m) y estas pendientes son a 463 m. Sirve como parecido de relieve a escala regional."
+        },
+        {
+          "robustness": "robusto",
+          "requirement_assessment": "no evaluable: requisitos de Marte definidos a escala de metros; pendiente medida a 463 m",
+          "site_id": "EARTH_PAYUNIA",
+          "name": "La Payunia - Pampas Negras (AR)",
+          "role": "candidate",
+          "score_global": 0.0,
+          "score_global_meaning": "probabilidad (%) de quedar entre los 3 mas parecidos en relieve, con pesos desconocidos y error de medicion",
+          "p_top_k_solo_pesos": 0.0,
+          "expected_rank": 4.63,
+          "rank_acceptability": [
+            0.0,
+            0.0,
+            0.0,
+            0.3713,
+            0.6287,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "central_weights": {
+            "slope_463m": null,
+            "slope_1389m": null,
+            "slope_4167m": null,
+            "slope_12501m": null
+          },
+          "weighted_distance_deg": {
+            "median": 2.332,
+            "p05": 2.095,
+            "p95": 2.499
+          },
+          "scores": {
+            "relieve_multiescala_distancia_deg": {
+              "slope_463m": 1.893,
+              "slope_1389m": 2.337,
+              "slope_4167m": 2.636,
+              "slope_12501m": 2.405
+            },
+            "inercia_termica": null,
+            "mineralogia": null,
+            "visual": null
+          },
+          "scores_note": "Solo el relieve entra al ranking; termica, mineralogia y visual son descriptivas (decision del equipo).",
+          "strongest_matches": [
+            "pendiente a 463m: distancia 1.89 grados (mediana 3.7 frente a 2.5)",
+            "pendiente a 1389m: distancia 2.34 grados (mediana 3.7 frente a 2.2)"
+          ],
+          "where_it_breaks_down": [
+            "Relieve: la escala menos parecida es 4167m (distancia 2.64 grados; mediana 3.9 frente a 2.0).",
+            "Inercia termica (descriptiva, fuera del ranking): referencia 221.4 J m-2 K-1 s-1/2; candidato indice aparente 0.058 (1/K). No son comparables: la presion atmosferica cambia la inercia del mismo material.",
+            "Mineralogia (descriptiva): referencia ferrico 0.8, sulfato 0.7, arcilla 0.7, carbonato 0.1 (presencia 0-1 segun literatura). Sentinel-2 en el candidato: indice de oxido de hierro 3.00, arcilla/sulfato 1.34 (cocientes de reflectancia). Son magnitudes distintas; no se puntua.",
+            "Fisica del cuerpo: Marte tiene una atmosfera de ~0.6 % de la presion terrestre, gravedad ~0.38 g y mas radiacion en superficie; el transporte de polvo y el ambiente termico difieren."
+          ],
+          "mission_utility": "No demostrado para aterrizaje ni movilidad: esos requisitos en Marte estan definidos a escala de metros (InSight 2-84 m) y estas pendientes son a 463 m. Sirve como parecido de relieve a escala regional."
+        },
+        {
+          "robustness": "robusto",
+          "requirement_assessment": "no evaluable: requisitos de Marte definidos a escala de metros; pendiente medida a 463 m",
+          "site_id": "EARTH_SALINAS",
+          "name": "Salinas Grandes (AR)",
+          "role": "candidate",
+          "score_global": 0.0,
+          "score_global_meaning": "probabilidad (%) de quedar entre los 3 mas parecidos en relieve, con pesos desconocidos y error de medicion",
+          "p_top_k_solo_pesos": 0.0,
+          "expected_rank": 5.3,
+          "rank_acceptability": [
+            0.0,
+            0.0,
+            0.0,
+            0.2032,
+            0.2907,
+            0.5061,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "central_weights": {
+            "slope_463m": null,
+            "slope_1389m": null,
+            "slope_4167m": null,
+            "slope_12501m": null
+          },
+          "weighted_distance_deg": {
+            "median": 2.539,
+            "p05": 1.912,
+            "p95": 2.994
+          },
+          "scores": {
+            "relieve_multiescala_distancia_deg": {
+              "slope_463m": 1.371,
+              "slope_1389m": 2.356,
+              "slope_4167m": 3.141,
+              "slope_12501m": 3.174
+            },
+            "inercia_termica": null,
+            "mineralogia": null,
+            "visual": null
+          },
+          "scores_note": "Solo el relieve entra al ranking; termica, mineralogia y visual son descriptivas (decision del equipo).",
+          "strongest_matches": [
+            "pendiente a 463m: distancia 1.37 grados (mediana 3.7 frente a 2.2)",
+            "pendiente a 1389m: distancia 2.36 grados (mediana 3.7 frente a 1.8)"
+          ],
+          "where_it_breaks_down": [
+            "Relieve: la escala menos parecida es 12501m (distancia 3.17 grados; mediana 3.6 frente a 1.1).",
+            "Inercia termica (descriptiva, fuera del ranking): referencia 221.4 J m-2 K-1 s-1/2; candidato indice aparente 0.036 (1/K). No son comparables: la presion atmosferica cambia la inercia del mismo material. Ademas este sitio esta a ~3734 m: la oscilacion dia-noche se amplifica por la atmosfera delgada.",
+            "Mineralogia (descriptiva): referencia ferrico 0.8, sulfato 0.7, arcilla 0.7, carbonato 0.1 (presencia 0-1 segun literatura). Sentinel-2 en el candidato: indice de oxido de hierro 1.97, arcilla/sulfato 2.18 (cocientes de reflectancia). Son magnitudes distintas; no se puntua.",
+            "Fisica del cuerpo: Marte tiene una atmosfera de ~0.6 % de la presion terrestre, gravedad ~0.38 g y mas radiacion en superficie; el transporte de polvo y el ambiente termico difieren."
+          ],
+          "mission_utility": "No demostrado para aterrizaje ni movilidad: esos requisitos en Marte estan definidos a escala de metros (InSight 2-84 m) y estas pendientes son a 463 m. Sirve como parecido de relieve a escala regional."
+        },
+        {
+          "robustness": "robusto",
+          "requirement_assessment": "no evaluable: requisitos de Marte definidos a escala de metros; pendiente medida a 463 m",
+          "site_id": "EARTH_NAMIB",
+          "name": "Namib - Sossusvlei (NA)",
+          "role": "validation",
+          "score_global": 0.0,
+          "score_global_meaning": "probabilidad (%) de quedar entre los 3 mas parecidos en relieve, con pesos desconocidos y error de medicion",
+          "p_top_k_solo_pesos": 0.0,
+          "expected_rank": 7.35,
+          "rank_acceptability": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.1119,
+            0.4461,
+            0.4253,
+            0.0167,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "central_weights": {
+            "slope_463m": null,
+            "slope_1389m": null,
+            "slope_4167m": null,
+            "slope_12501m": null
+          },
+          "weighted_distance_deg": {
+            "median": 3.98,
+            "p05": 3.531,
+            "p95": 4.308
+          },
+          "scores": {
+            "relieve_multiescala_distancia_deg": {
+              "slope_463m": 3.142,
+              "slope_1389m": 4.337,
+              "slope_4167m": 4.504,
+              "slope_12501m": 3.852
+            },
+            "inercia_termica": null,
+            "mineralogia": null,
+            "visual": null
+          },
+          "scores_note": "Solo el relieve entra al ranking; termica, mineralogia y visual son descriptivas (decision del equipo).",
+          "strongest_matches": [
+            "pendiente a 463m: distancia 3.14 grados (mediana 3.7 frente a 1.9)",
+            "pendiente a 12501m: distancia 3.85 grados (mediana 3.6 frente a 0.6)"
+          ],
+          "where_it_breaks_down": [
+            "Relieve: la escala menos parecida es 4167m (distancia 4.50 grados; mediana 3.9 frente a 0.7).",
+            "Inercia termica (descriptiva, fuera del ranking): referencia 221.4 J m-2 K-1 s-1/2; candidato indice aparente 0.042 (1/K). No son comparables: la presion atmosferica cambia la inercia del mismo material.",
+            "Mineralogia (descriptiva): referencia ferrico 0.8, sulfato 0.7, arcilla 0.7, carbonato 0.1 (presencia 0-1 segun literatura). Sentinel-2 en el candidato: indice de oxido de hierro 4.53, arcilla/sulfato 1.09 (cocientes de reflectancia). Son magnitudes distintas; no se puntua.",
+            "Datos: se excluyo 1 % de la ventana por ser mar.",
+            "Fisica del cuerpo: Marte tiene una atmosfera de ~0.6 % de la presion terrestre, gravedad ~0.38 g y mas radiacion en superficie; el transporte de polvo y el ambiente termico difieren."
+          ],
+          "mission_utility": "No demostrado para aterrizaje ni movilidad: esos requisitos en Marte estan definidos a escala de metros (InSight 2-84 m) y estas pendientes son a 463 m. Sirve como parecido de relieve a escala regional."
+        },
+        {
+          "robustness": "robusto",
+          "requirement_assessment": "no evaluable: requisitos de Marte definidos a escala de metros; pendiente medida a 463 m",
+          "site_id": "EARTH_GUAJIRA",
+          "name": "Alta Guajira interior arida (CO)",
+          "role": "candidate",
+          "score_global": 0.0,
+          "score_global_meaning": "probabilidad (%) de quedar entre los 3 mas parecidos en relieve, con pesos desconocidos y error de medicion",
+          "p_top_k_solo_pesos": 0.0,
+          "expected_rank": 7.47,
+          "rank_acceptability": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.5259,
+            0.4741,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "central_weights": {
+            "slope_463m": null,
+            "slope_1389m": null,
+            "slope_4167m": null,
+            "slope_12501m": null
+          },
+          "weighted_distance_deg": {
+            "median": 4.001,
+            "p05": 3.817,
+            "p95": 4.179
+          },
+          "scores": {
+            "relieve_multiescala_distancia_deg": {
+              "slope_463m": 3.676,
+              "slope_1389m": 4.134,
+              "slope_4167m": 4.317,
+              "slope_12501m": 3.876
+            },
+            "inercia_termica": null,
+            "mineralogia": null,
+            "visual": null
+          },
+          "scores_note": "Solo el relieve entra al ranking; termica, mineralogia y visual son descriptivas (decision del equipo).",
+          "strongest_matches": [
+            "pendiente a 463m: distancia 3.68 grados (mediana 3.7 frente a 0.8)",
+            "pendiente a 12501m: distancia 3.88 grados (mediana 3.6 frente a 0.5)"
+          ],
+          "where_it_breaks_down": [
+            "Relieve: la escala menos parecida es 4167m (distancia 4.32 grados; mediana 3.9 frente a 0.5).",
+            "Inercia termica (descriptiva, fuera del ranking): referencia 221.4 J m-2 K-1 s-1/2; candidato indice aparente 0.070 (1/K). No son comparables: la presion atmosferica cambia la inercia del mismo material.",
+            "Mineralogia (descriptiva): referencia ferrico 0.8, sulfato 0.7, arcilla 0.7, carbonato 0.1 (presencia 0-1 segun literatura). Sentinel-2 en el candidato: indice de oxido de hierro 5.55, arcilla/sulfato 1.26 (cocientes de reflectancia). Son magnitudes distintas; no se puntua.",
+            "Datos: se excluyo 42 % de la ventana por ser mar.",
+            "Fisica del cuerpo: Marte tiene una atmosfera de ~0.6 % de la presion terrestre, gravedad ~0.38 g y mas radiacion en superficie; el transporte de polvo y el ambiente termico difieren."
+          ],
+          "mission_utility": "No demostrado para aterrizaje ni movilidad: esos requisitos en Marte estan definidos a escala de metros (InSight 2-84 m) y estas pendientes son a 463 m. Sirve como parecido de relieve a escala regional."
+        },
+        {
+          "robustness": "robusto",
+          "requirement_assessment": "no evaluable: requisitos de Marte definidos a escala de metros; pendiente medida a 463 m",
+          "site_id": "EARTH_PINACATE",
+          "name": "Campo Volcanico El Pinacate (MX)",
+          "role": "candidate",
+          "score_global": 0.0,
+          "score_global_meaning": "probabilidad (%) de quedar entre los 3 mas parecidos en relieve, con pesos desconocidos y error de medicion",
+          "p_top_k_solo_pesos": 0.0,
+          "expected_rank": 8.94,
+          "rank_acceptability": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0613,
+            0.9387,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "central_weights": {
+            "slope_463m": null,
+            "slope_1389m": null,
+            "slope_4167m": null,
+            "slope_12501m": null
+          },
+          "weighted_distance_deg": {
+            "median": 4.224,
+            "p05": 4.035,
+            "p95": 4.374
+          },
+          "scores": {
+            "relieve_multiescala_distancia_deg": {
+              "slope_463m": 4.131,
+              "slope_1389m": 4.421,
+              "slope_4167m": 4.443,
+              "slope_12501m": 3.879
+            },
+            "inercia_termica": null,
+            "mineralogia": null,
+            "visual": null
+          },
+          "scores_note": "Solo el relieve entra al ranking; termica, mineralogia y visual son descriptivas (decision del equipo).",
+          "strongest_matches": [
+            "pendiente a 12501m: distancia 3.88 grados (mediana 3.6 frente a 0.4)",
+            "pendiente a 463m: distancia 4.13 grados (mediana 3.7 frente a 0.6)"
+          ],
+          "where_it_breaks_down": [
+            "Relieve: la escala menos parecida es 4167m (distancia 4.44 grados; mediana 3.9 frente a 0.5).",
+            "Inercia termica (descriptiva, fuera del ranking): referencia 221.4 J m-2 K-1 s-1/2; candidato indice aparente 0.039 (1/K). No son comparables: la presion atmosferica cambia la inercia del mismo material.",
+            "Mineralogia (descriptiva): referencia ferrico 0.8, sulfato 0.7, arcilla 0.7, carbonato 0.1 (presencia 0-1 segun literatura). Sentinel-2 en el candidato: indice de oxido de hierro 6.38, arcilla/sulfato 1.28 (cocientes de reflectancia). Son magnitudes distintas; no se puntua.",
+            "Datos: se excluyo 3 % de la ventana por ser mar.",
+            "Fisica del cuerpo: Marte tiene una atmosfera de ~0.6 % de la presion terrestre, gravedad ~0.38 g y mas radiacion en superficie; el transporte de polvo y el ambiente termico difieren."
+          ],
+          "mission_utility": "No demostrado para aterrizaje ni movilidad: esos requisitos en Marte estan definidos a escala de metros (InSight 2-84 m) y estas pendientes son a 463 m. Sirve como parecido de relieve a escala regional."
+        },
+        {
+          "robustness": "robusto",
+          "requirement_assessment": "no evaluable: requisitos de Marte definidos a escala de metros; pendiente medida a 463 m",
+          "site_id": "EARTH_SAHARA",
+          "name": "Erg Chebbi - Sahara (MA)",
+          "role": "validation",
+          "score_global": 0.0,
+          "score_global_meaning": "probabilidad (%) de quedar entre los 3 mas parecidos en relieve, con pesos desconocidos y error de medicion",
+          "p_top_k_solo_pesos": 0.0,
+          "expected_rank": 9.97,
+          "rank_acceptability": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0251,
+            0.9749,
+            0.0,
+            0.0
+          ],
+          "central_weights": {
+            "slope_463m": null,
+            "slope_1389m": null,
+            "slope_4167m": null,
+            "slope_12501m": null
+          },
+          "weighted_distance_deg": {
+            "median": 4.436,
+            "p05": 4.236,
+            "p95": 4.576
+          },
+          "scores": {
+            "relieve_multiescala_distancia_deg": {
+              "slope_463m": 4.38,
+              "slope_1389m": 4.631,
+              "slope_4167m": 4.631,
+              "slope_12501m": 4.067
+            },
+            "inercia_termica": null,
+            "mineralogia": null,
+            "visual": null
+          },
+          "scores_note": "Solo el relieve entra al ranking; termica, mineralogia y visual son descriptivas (decision del equipo).",
+          "strongest_matches": [
+            "pendiente a 12501m: distancia 4.07 grados (mediana 3.6 frente a 0.3)",
+            "pendiente a 463m: distancia 4.38 grados (mediana 3.7 frente a 0.6)"
+          ],
+          "where_it_breaks_down": [
+            "Relieve: la escala menos parecida es 4167m (distancia 4.63 grados; mediana 3.9 frente a 0.4).",
+            "Inercia termica (descriptiva, fuera del ranking): referencia 221.4 J m-2 K-1 s-1/2; candidato indice aparente 0.028 (1/K). No son comparables: la presion atmosferica cambia la inercia del mismo material.",
+            "Mineralogia (descriptiva): referencia ferrico 0.8, sulfato 0.7, arcilla 0.7, carbonato 0.1 (presencia 0-1 segun literatura). Sentinel-2 en el candidato: indice de oxido de hierro 16.36, arcilla/sulfato 1.01 (cocientes de reflectancia). Son magnitudes distintas; no se puntua.",
+            "Fisica del cuerpo: Marte tiene una atmosfera de ~0.6 % de la presion terrestre, gravedad ~0.38 g y mas radiacion en superficie; el transporte de polvo y el ambiente termico difieren."
+          ],
+          "mission_utility": "No demostrado para aterrizaje ni movilidad: esos requisitos en Marte estan definidos a escala de metros (InSight 2-84 m) y estas pendientes son a 463 m. Sirve como parecido de relieve a escala regional."
+        },
+        {
+          "robustness": "robusto",
+          "requirement_assessment": "no evaluable: requisitos de Marte definidos a escala de metros; pendiente medida a 463 m",
+          "site_id": "EARTH_GAIRDNER",
+          "name": "Lake Gairdner (AU)",
+          "role": "validation",
+          "score_global": 0.0,
+          "score_global_meaning": "probabilidad (%) de quedar entre los 3 mas parecidos en relieve, con pesos desconocidos y error de medicion",
+          "p_top_k_solo_pesos": 0.0,
+          "expected_rank": 10.99,
+          "rank_acceptability": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0084,
+            0.9916,
+            0.0
+          ],
+          "central_weights": {
+            "slope_463m": null,
+            "slope_1389m": null,
+            "slope_4167m": null,
+            "slope_12501m": null
+          },
+          "weighted_distance_deg": {
+            "median": 4.725,
+            "p05": 4.461,
+            "p95": 4.874
+          },
+          "scores": {
+            "relieve_multiescala_distancia_deg": {
+              "slope_463m": 4.739,
+              "slope_1389m": 4.949,
+              "slope_4167m": 4.905,
+              "slope_12501m": 4.233
+            },
+            "inercia_termica": null,
+            "mineralogia": null,
+            "visual": null
+          },
+          "scores_note": "Solo el relieve entra al ranking; termica, mineralogia y visual son descriptivas (decision del equipo).",
+          "strongest_matches": [
+            "pendiente a 12501m: distancia 4.23 grados (mediana 3.6 frente a 0.2)",
+            "pendiente a 463m: distancia 4.74 grados (mediana 3.7 frente a 0.6)"
+          ],
+          "where_it_breaks_down": [
+            "Relieve: la escala menos parecida es 1389m (distancia 4.95 grados; mediana 3.7 frente a 0.4).",
+            "Inercia termica (descriptiva, fuera del ranking): referencia 221.4 J m-2 K-1 s-1/2; candidato indice aparente 0.153 (1/K). No son comparables: la presion atmosferica cambia la inercia del mismo material.",
+            "Mineralogia (descriptiva): referencia ferrico 0.8, sulfato 0.7, arcilla 0.7, carbonato 0.1 (presencia 0-1 segun literatura). Sentinel-2 en el candidato: indice de oxido de hierro 2.27, arcilla/sulfato 1.42 (cocientes de reflectancia). Son magnitudes distintas; no se puntua.",
+            "Datos: se excluyo 33 % por cotas editadas (cuerpo de agua aplanado en Copernicus); el relieve se mide solo en el entorno.",
+            "Fisica del cuerpo: Marte tiene una atmosfera de ~0.6 % de la presion terrestre, gravedad ~0.38 g y mas radiacion en superficie; el transporte de polvo y el ambiente termico difieren."
+          ],
+          "mission_utility": "No demostrado para aterrizaje ni movilidad: esos requisitos en Marte estan definidos a escala de metros (InSight 2-84 m) y estas pendientes son a 463 m. Sirve como parecido de relieve a escala regional."
+        },
+        {
+          "robustness": "robusto",
+          "requirement_assessment": "no evaluable: requisitos de Marte definidos a escala de metros; pendiente medida a 463 m",
+          "site_id": "EARTH_SECHURA",
+          "name": "Desierto de Sechura (PE)",
+          "role": "candidate",
+          "score_global": 0.0,
+          "score_global_meaning": "probabilidad (%) de quedar entre los 3 mas parecidos en relieve, con pesos desconocidos y error de medicion",
+          "p_top_k_solo_pesos": 0.0,
+          "expected_rank": 12.0,
+          "rank_acceptability": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0009,
+            0.9991
+          ],
+          "central_weights": {
+            "slope_463m": null,
+            "slope_1389m": null,
+            "slope_4167m": null,
+            "slope_12501m": null
+          },
+          "weighted_distance_deg": {
+            "median": 4.937,
+            "p05": 4.571,
+            "p95": 5.124
+          },
+          "scores": {
+            "relieve_multiescala_distancia_deg": {
+              "slope_463m": 5.213,
+              "slope_1389m": 5.203,
+              "slope_4167m": 4.984,
+              "slope_12501m": 4.252
+            },
+            "inercia_termica": null,
+            "mineralogia": null,
+            "visual": null
+          },
+          "scores_note": "Solo el relieve entra al ranking; termica, mineralogia y visual son descriptivas (decision del equipo).",
+          "strongest_matches": [
+            "pendiente a 12501m: distancia 4.25 grados (mediana 3.6 frente a 0.1)",
+            "pendiente a 4167m: distancia 4.98 grados (mediana 3.9 frente a 0.2)"
+          ],
+          "where_it_breaks_down": [
+            "Relieve: la escala menos parecida es 463m (distancia 5.21 grados; mediana 3.7 frente a 0.2).",
+            "Inercia termica (descriptiva, fuera del ranking): referencia 221.4 J m-2 K-1 s-1/2; candidato indice aparente 0.086 (1/K). No son comparables: la presion atmosferica cambia la inercia del mismo material.",
+            "Mineralogia (descriptiva): referencia ferrico 0.8, sulfato 0.7, arcilla 0.7, carbonato 0.1 (presencia 0-1 segun literatura). Sentinel-2 en el candidato: indice de oxido de hierro 2.30, arcilla/sulfato 1.23 (cocientes de reflectancia). Son magnitudes distintas; no se puntua.",
+            "Datos: se excluyo 10 % de la ventana por ser mar.",
+            "Fisica del cuerpo: Marte tiene una atmosfera de ~0.6 % de la presion terrestre, gravedad ~0.38 g y mas radiacion en superficie; el transporte de polvo y el ambiente termico difieren."
+          ],
+          "mission_utility": "No demostrado para aterrizaje ni movilidad: esos requisitos en Marte estan definidos a escala de metros (InSight 2-84 m) y estas pendientes son a 463 m. Sirve como parecido de relieve a escala regional."
+        }
+      ]
+    },
+    {
+      "ref_site_id": "MARS_MERID",
+      "ref_name": "Meridiani Planum",
+      "ref_relief_summary": {
+        "sea_frac_masked": 0.0,
+        "edited_plateau_frac_masked": 0.0,
+        "valid_frac": 1.0,
+        "slope_463m": {
+          "n": 37249,
+          "p10": 0.1237487914064594,
+          "median": 0.3500106285710405,
+          "p90": 1.1407584988779935
+        },
+        "requirement_fractions": {
+          "R03_lt5": 0.9819592472281135,
+          "R01_lt10": 0.9972348250959757,
+          "R04_lt15": 0.999731536417085,
+          "R02_lt20": 1.0
+        },
+        "requirement_scale_m": 463.0,
+        "slope_1389m": {
+          "n": 36481,
+          "p10": 0.10516629578524687,
+          "median": 0.3141449130186521,
+          "p90": 1.011142892041877
+        },
+        "slope_4167m": {
+          "n": 34225,
+          "p10": 0.08017487786425165,
+          "median": 0.25446412580852545,
+          "p90": 0.8558488377510588
+        },
+        "slope_12501m": {
+          "n": 27889,
+          "p10": 0.06993087931063091,
+          "median": 0.18393176991300741,
+          "p90": 1.0001169007275257
+        }
+      },
+      "candidates": [
+        {
+          "robustness": "robusto",
+          "requirement_assessment": "no evaluable: requisitos de Marte definidos a escala de metros; pendiente medida a 463 m",
+          "site_id": "EARTH_SECHURA",
+          "name": "Desierto de Sechura (PE)",
+          "role": "candidate",
+          "score_global": 100.0,
+          "score_global_meaning": "probabilidad (%) de quedar entre los 3 mas parecidos en relieve, con pesos desconocidos y error de medicion",
+          "p_top_k_solo_pesos": 100.0,
+          "expected_rank": 1.46,
+          "rank_acceptability": [
+            0.5493,
+            0.441,
+            0.0097,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "central_weights": {
+            "slope_463m": 0.382,
+            "slope_1389m": 0.213,
+            "slope_4167m": 0.183,
+            "slope_12501m": 0.221
+          },
+          "weighted_distance_deg": {
+            "median": 0.208,
+            "p05": 0.181,
+            "p95": 0.235
+          },
+          "scores": {
+            "relieve_multiescala_distancia_deg": {
+              "slope_463m": 0.211,
+              "slope_1389m": 0.262,
+              "slope_4167m": 0.213,
+              "slope_12501m": 0.159
+            },
+            "inercia_termica": null,
+            "mineralogia": null,
+            "visual": null
+          },
+          "scores_note": "Solo el relieve entra al ranking; termica, mineralogia y visual son descriptivas (decision del equipo).",
+          "strongest_matches": [
+            "pendiente a 12501m: distancia 0.16 grados (mediana 0.2 frente a 0.1)",
+            "pendiente a 463m: distancia 0.21 grados (mediana 0.4 frente a 0.2)"
+          ],
+          "where_it_breaks_down": [
+            "Relieve: la escala menos parecida es 1389m (distancia 0.26 grados; mediana 0.3 frente a 0.2).",
+            "Inercia termica (descriptiva, fuera del ranking): referencia 168.7 J m-2 K-1 s-1/2; candidato indice aparente 0.086 (1/K). No son comparables: la presion atmosferica cambia la inercia del mismo material.",
+            "Mineralogia (descriptiva): referencia ferrico 0.9, sulfato 0.9, arcilla 0.1, carbonato 0.0 (presencia 0-1 segun literatura). Sentinel-2 en el candidato: indice de oxido de hierro 2.30, arcilla/sulfato 1.23 (cocientes de reflectancia). Son magnitudes distintas; no se puntua.",
+            "Datos: se excluyo 10 % de la ventana por ser mar.",
+            "Fisica del cuerpo: Marte tiene una atmosfera de ~0.6 % de la presion terrestre, gravedad ~0.38 g y mas radiacion en superficie; el transporte de polvo y el ambiente termico difieren."
+          ],
+          "mission_utility": "No demostrado para aterrizaje ni movilidad: esos requisitos en Marte estan definidos a escala de metros (InSight 2-84 m) y estas pendientes son a 463 m. Sirve como parecido de relieve a escala regional."
+        },
+        {
+          "robustness": "robusto",
+          "requirement_assessment": "no evaluable: requisitos de Marte definidos a escala de metros; pendiente medida a 463 m",
+          "site_id": "EARTH_GAIRDNER",
+          "name": "Lake Gairdner (AU)",
+          "role": "validation",
+          "score_global": 100.0,
+          "score_global_meaning": "probabilidad (%) de quedar entre los 3 mas parecidos en relieve, con pesos desconocidos y error de medicion",
+          "p_top_k_solo_pesos": 100.0,
+          "expected_rank": 1.55,
+          "rank_acceptability": [
+            0.4507,
+            0.5493,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "central_weights": {
+            "slope_463m": 0.087,
+            "slope_1389m": 0.296,
+            "slope_4167m": 0.334,
+            "slope_12501m": 0.283
+          },
+          "weighted_distance_deg": {
+            "median": 0.216,
+            "p05": 0.163,
+            "p95": 0.295
+          },
+          "scores": {
+            "relieve_multiescala_distancia_deg": {
+              "slope_463m": 0.382,
+              "slope_1389m": 0.233,
+              "slope_4167m": 0.15,
+              "slope_12501m": 0.139
+            },
+            "inercia_termica": null,
+            "mineralogia": null,
+            "visual": null
+          },
+          "scores_note": "Solo el relieve entra al ranking; termica, mineralogia y visual son descriptivas (decision del equipo).",
+          "strongest_matches": [
+            "pendiente a 12501m: distancia 0.14 grados (mediana 0.2 frente a 0.2)",
+            "pendiente a 4167m: distancia 0.15 grados (mediana 0.3 frente a 0.3)"
+          ],
+          "where_it_breaks_down": [
+            "Relieve: la escala menos parecida es 463m (distancia 0.38 grados; mediana 0.4 frente a 0.6).",
+            "Inercia termica (descriptiva, fuera del ranking): referencia 168.7 J m-2 K-1 s-1/2; candidato indice aparente 0.153 (1/K). No son comparables: la presion atmosferica cambia la inercia del mismo material.",
+            "Mineralogia (descriptiva): referencia ferrico 0.9, sulfato 0.9, arcilla 0.1, carbonato 0.0 (presencia 0-1 segun literatura). Sentinel-2 en el candidato: indice de oxido de hierro 2.27, arcilla/sulfato 1.42 (cocientes de reflectancia). Son magnitudes distintas; no se puntua.",
+            "Datos: se excluyo 33 % por cotas editadas (cuerpo de agua aplanado en Copernicus); el relieve se mide solo en el entorno.",
+            "Fisica del cuerpo: Marte tiene una atmosfera de ~0.6 % de la presion terrestre, gravedad ~0.38 g y mas radiacion en superficie; el transporte de polvo y el ambiente termico difieren."
+          ],
+          "mission_utility": "No demostrado para aterrizaje ni movilidad: esos requisitos en Marte estan definidos a escala de metros (InSight 2-84 m) y estas pendientes son a 463 m. Sirve como parecido de relieve a escala regional."
+        },
+        {
+          "robustness": "robusto",
+          "requirement_assessment": "no evaluable: requisitos de Marte definidos a escala de metros; pendiente medida a 463 m",
+          "site_id": "EARTH_SAHARA",
+          "name": "Erg Chebbi - Sahara (MA)",
+          "role": "validation",
+          "score_global": 100.0,
+          "score_global_meaning": "probabilidad (%) de quedar entre los 3 mas parecidos en relieve, con pesos desconocidos y error de medicion",
+          "p_top_k_solo_pesos": 100.0,
+          "expected_rank": 2.99,
+          "rank_acceptability": [
+            0.0,
+            0.0097,
+            0.9903,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "central_weights": {
+            "slope_463m": null,
+            "slope_1389m": null,
+            "slope_4167m": null,
+            "slope_12501m": null
+          },
+          "weighted_distance_deg": {
+            "median": 0.318,
+            "p05": 0.21,
+            "p95": 0.471
+          },
+          "scores": {
+            "relieve_multiescala_distancia_deg": {
+              "slope_463m": 0.622,
+              "slope_1389m": 0.344,
+              "slope_4167m": 0.225,
+              "slope_12501m": 0.134
+            },
+            "inercia_termica": null,
+            "mineralogia": null,
+            "visual": null
+          },
+          "scores_note": "Solo el relieve entra al ranking; termica, mineralogia y visual son descriptivas (decision del equipo).",
+          "strongest_matches": [
+            "pendiente a 12501m: distancia 0.13 grados (mediana 0.2 frente a 0.3)",
+            "pendiente a 4167m: distancia 0.22 grados (mediana 0.3 frente a 0.4)"
+          ],
+          "where_it_breaks_down": [
+            "Relieve: la escala menos parecida es 463m (distancia 0.62 grados; mediana 0.4 frente a 0.6).",
+            "Inercia termica (descriptiva, fuera del ranking): referencia 168.7 J m-2 K-1 s-1/2; candidato indice aparente 0.028 (1/K). No son comparables: la presion atmosferica cambia la inercia del mismo material.",
+            "Mineralogia (descriptiva): referencia ferrico 0.9, sulfato 0.9, arcilla 0.1, carbonato 0.0 (presencia 0-1 segun literatura). Sentinel-2 en el candidato: indice de oxido de hierro 16.36, arcilla/sulfato 1.01 (cocientes de reflectancia). Son magnitudes distintas; no se puntua.",
+            "Fisica del cuerpo: Marte tiene una atmosfera de ~0.6 % de la presion terrestre, gravedad ~0.38 g y mas radiacion en superficie; el transporte de polvo y el ambiente termico difieren."
+          ],
+          "mission_utility": "No demostrado para aterrizaje ni movilidad: esos requisitos en Marte estan definidos a escala de metros (InSight 2-84 m) y estas pendientes son a 463 m. Sirve como parecido de relieve a escala regional."
+        },
+        {
+          "robustness": "robusto",
+          "requirement_assessment": "no evaluable: requisitos de Marte definidos a escala de metros; pendiente medida a 463 m",
+          "site_id": "EARTH_PINACATE",
+          "name": "Campo Volcanico El Pinacate (MX)",
+          "role": "candidate",
+          "score_global": 0.0,
+          "score_global_meaning": "probabilidad (%) de quedar entre los 3 mas parecidos en relieve, con pesos desconocidos y error de medicion",
+          "p_top_k_solo_pesos": 0.0,
+          "expected_rank": 4.0,
+          "rank_acceptability": [
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "central_weights": {
+            "slope_463m": null,
+            "slope_1389m": null,
+            "slope_4167m": null,
+            "slope_12501m": null
+          },
+          "weighted_distance_deg": {
+            "median": 0.468,
+            "p05": 0.316,
+            "p95": 0.672
+          },
+          "scores": {
+            "relieve_multiescala_distancia_deg": {
+              "slope_463m": 0.871,
+              "slope_1389m": 0.519,
+              "slope_4167m": 0.328,
+              "slope_12501m": 0.215
+            },
+            "inercia_termica": null,
+            "mineralogia": null,
+            "visual": null
+          },
+          "scores_note": "Solo el relieve entra al ranking; termica, mineralogia y visual son descriptivas (decision del equipo).",
+          "strongest_matches": [
+            "pendiente a 12501m: distancia 0.21 grados (mediana 0.2 frente a 0.4)",
+            "pendiente a 4167m: distancia 0.33 grados (mediana 0.3 frente a 0.5)"
+          ],
+          "where_it_breaks_down": [
+            "Relieve: la escala menos parecida es 463m (distancia 0.87 grados; mediana 0.4 frente a 0.6).",
+            "Inercia termica (descriptiva, fuera del ranking): referencia 168.7 J m-2 K-1 s-1/2; candidato indice aparente 0.039 (1/K). No son comparables: la presion atmosferica cambia la inercia del mismo material.",
+            "Mineralogia (descriptiva): referencia ferrico 0.9, sulfato 0.9, arcilla 0.1, carbonato 0.0 (presencia 0-1 segun literatura). Sentinel-2 en el candidato: indice de oxido de hierro 6.38, arcilla/sulfato 1.28 (cocientes de reflectancia). Son magnitudes distintas; no se puntua.",
+            "Datos: se excluyo 3 % de la ventana por ser mar.",
+            "Fisica del cuerpo: Marte tiene una atmosfera de ~0.6 % de la presion terrestre, gravedad ~0.38 g y mas radiacion en superficie; el transporte de polvo y el ambiente termico difieren."
+          ],
+          "mission_utility": "No demostrado para aterrizaje ni movilidad: esos requisitos en Marte estan definidos a escala de metros (InSight 2-84 m) y estas pendientes son a 463 m. Sirve como parecido de relieve a escala regional."
+        },
+        {
+          "robustness": "robusto",
+          "requirement_assessment": "no evaluable: requisitos de Marte definidos a escala de metros; pendiente medida a 463 m",
+          "site_id": "EARTH_GUAJIRA",
+          "name": "Alta Guajira interior arida (CO)",
+          "role": "candidate",
+          "score_global": 0.0,
+          "score_global_meaning": "probabilidad (%) de quedar entre los 3 mas parecidos en relieve, con pesos desconocidos y error de medicion",
+          "p_top_k_solo_pesos": 0.0,
+          "expected_rank": 5.21,
+          "rank_acceptability": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.7868,
+            0.2132,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "central_weights": {
+            "slope_463m": null,
+            "slope_1389m": null,
+            "slope_4167m": null,
+            "slope_12501m": null
+          },
+          "weighted_distance_deg": {
+            "median": 0.685,
+            "p05": 0.413,
+            "p95": 1.015
+          },
+          "scores": {
+            "relieve_multiescala_distancia_deg": {
+              "slope_463m": 1.326,
+              "slope_1389m": 0.806,
+              "slope_4167m": 0.454,
+              "slope_12501m": 0.221
+            },
+            "inercia_termica": null,
+            "mineralogia": null,
+            "visual": null
+          },
+          "scores_note": "Solo el relieve entra al ranking; termica, mineralogia y visual son descriptivas (decision del equipo).",
+          "strongest_matches": [
+            "pendiente a 12501m: distancia 0.22 grados (mediana 0.2 frente a 0.5)",
+            "pendiente a 4167m: distancia 0.45 grados (mediana 0.3 frente a 0.5)"
+          ],
+          "where_it_breaks_down": [
+            "Relieve: la escala menos parecida es 463m (distancia 1.33 grados; mediana 0.4 frente a 0.8).",
+            "Inercia termica (descriptiva, fuera del ranking): referencia 168.7 J m-2 K-1 s-1/2; candidato indice aparente 0.070 (1/K). No son comparables: la presion atmosferica cambia la inercia del mismo material.",
+            "Mineralogia (descriptiva): referencia ferrico 0.9, sulfato 0.9, arcilla 0.1, carbonato 0.0 (presencia 0-1 segun literatura). Sentinel-2 en el candidato: indice de oxido de hierro 5.55, arcilla/sulfato 1.26 (cocientes de reflectancia). Son magnitudes distintas; no se puntua.",
+            "Datos: se excluyo 42 % de la ventana por ser mar.",
+            "Fisica del cuerpo: Marte tiene una atmosfera de ~0.6 % de la presion terrestre, gravedad ~0.38 g y mas radiacion en superficie; el transporte de polvo y el ambiente termico difieren."
+          ],
+          "mission_utility": "No demostrado para aterrizaje ni movilidad: esos requisitos en Marte estan definidos a escala de metros (InSight 2-84 m) y estas pendientes son a 463 m. Sirve como parecido de relieve a escala regional."
+        },
+        {
+          "robustness": "robusto",
+          "requirement_assessment": "no evaluable: requisitos de Marte definidos a escala de metros; pendiente medida a 463 m",
+          "site_id": "EARTH_NAMIB",
+          "name": "Namib - Sossusvlei (NA)",
+          "role": "validation",
+          "score_global": 0.0,
+          "score_global_meaning": "probabilidad (%) de quedar entre los 3 mas parecidos en relieve, con pesos desconocidos y error de medicion",
+          "p_top_k_solo_pesos": 0.0,
+          "expected_rank": 5.79,
+          "rank_acceptability": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.2132,
+            0.7868,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "central_weights": {
+            "slope_463m": null,
+            "slope_1389m": null,
+            "slope_4167m": null,
+            "slope_12501m": null
+          },
+          "weighted_distance_deg": {
+            "median": 0.748,
+            "p05": 0.444,
+            "p95": 1.319
+          },
+          "scores": {
+            "relieve_multiescala_distancia_deg": {
+              "slope_463m": 1.86,
+              "slope_1389m": 0.66,
+              "slope_4167m": 0.364,
+              "slope_12501m": 0.34
+            },
+            "inercia_termica": null,
+            "mineralogia": null,
+            "visual": null
+          },
+          "scores_note": "Solo el relieve entra al ranking; termica, mineralogia y visual son descriptivas (decision del equipo).",
+          "strongest_matches": [
+            "pendiente a 12501m: distancia 0.34 grados (mediana 0.2 frente a 0.6)",
+            "pendiente a 4167m: distancia 0.36 grados (mediana 0.3 frente a 0.7)"
+          ],
+          "where_it_breaks_down": [
+            "Relieve: la escala menos parecida es 463m (distancia 1.86 grados; mediana 0.4 frente a 1.9).",
+            "Inercia termica (descriptiva, fuera del ranking): referencia 168.7 J m-2 K-1 s-1/2; candidato indice aparente 0.042 (1/K). No son comparables: la presion atmosferica cambia la inercia del mismo material.",
+            "Mineralogia (descriptiva): referencia ferrico 0.9, sulfato 0.9, arcilla 0.1, carbonato 0.0 (presencia 0-1 segun literatura). Sentinel-2 en el candidato: indice de oxido de hierro 4.53, arcilla/sulfato 1.09 (cocientes de reflectancia). Son magnitudes distintas; no se puntua.",
+            "Datos: se excluyo 1 % de la ventana por ser mar.",
+            "Fisica del cuerpo: Marte tiene una atmosfera de ~0.6 % de la presion terrestre, gravedad ~0.38 g y mas radiacion en superficie; el transporte de polvo y el ambiente termico difieren."
+          ],
+          "mission_utility": "No demostrado para aterrizaje ni movilidad: esos requisitos en Marte estan definidos a escala de metros (InSight 2-84 m) y estas pendientes son a 463 m. Sirve como parecido de relieve a escala regional."
+        },
+        {
+          "robustness": "robusto",
+          "requirement_assessment": "no evaluable: requisitos de Marte definidos a escala de metros; pendiente medida a 463 m",
+          "site_id": "EARTH_SALINAS",
+          "name": "Salinas Grandes (AR)",
+          "role": "candidate",
+          "score_global": 0.0,
+          "score_global_meaning": "probabilidad (%) de quedar entre los 3 mas parecidos en relieve, con pesos desconocidos y error de medicion",
+          "p_top_k_solo_pesos": 0.0,
+          "expected_rank": 7.2,
+          "rank_acceptability": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.7962,
+            0.2038,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "central_weights": {
+            "slope_463m": null,
+            "slope_1389m": null,
+            "slope_4167m": null,
+            "slope_12501m": null
+          },
+          "weighted_distance_deg": {
+            "median": 2.175,
+            "p05": 1.457,
+            "p95": 2.955
+          },
+          "scores": {
+            "relieve_multiescala_distancia_deg": {
+              "slope_463m": 3.639,
+              "slope_1389m": 2.59,
+              "slope_4167m": 1.632,
+              "slope_12501m": 0.919
+            },
+            "inercia_termica": null,
+            "mineralogia": null,
+            "visual": null
+          },
+          "scores_note": "Solo el relieve entra al ranking; termica, mineralogia y visual son descriptivas (decision del equipo).",
+          "strongest_matches": [
+            "pendiente a 12501m: distancia 0.92 grados (mediana 0.2 frente a 1.1)",
+            "pendiente a 4167m: distancia 1.63 grados (mediana 0.3 frente a 1.5)"
+          ],
+          "where_it_breaks_down": [
+            "Relieve: la escala menos parecida es 463m (distancia 3.64 grados; mediana 0.4 frente a 2.2).",
+            "Inercia termica (descriptiva, fuera del ranking): referencia 168.7 J m-2 K-1 s-1/2; candidato indice aparente 0.036 (1/K). No son comparables: la presion atmosferica cambia la inercia del mismo material. Ademas este sitio esta a ~3734 m: la oscilacion dia-noche se amplifica por la atmosfera delgada.",
+            "Mineralogia (descriptiva): referencia ferrico 0.9, sulfato 0.9, arcilla 0.1, carbonato 0.0 (presencia 0-1 segun literatura). Sentinel-2 en el candidato: indice de oxido de hierro 1.97, arcilla/sulfato 2.18 (cocientes de reflectancia). Son magnitudes distintas; no se puntua.",
+            "Fisica del cuerpo: Marte tiene una atmosfera de ~0.6 % de la presion terrestre, gravedad ~0.38 g y mas radiacion en superficie; el transporte de polvo y el ambiente termico difieren."
+          ],
+          "mission_utility": "No demostrado para aterrizaje ni movilidad: esos requisitos en Marte estan definidos a escala de metros (InSight 2-84 m) y estas pendientes son a 463 m. Sirve como parecido de relieve a escala regional."
+        },
+        {
+          "robustness": "robusto",
+          "requirement_assessment": "no evaluable: requisitos de Marte definidos a escala de metros; pendiente medida a 463 m",
+          "site_id": "EARTH_PAYUNIA",
+          "name": "La Payunia - Pampas Negras (AR)",
+          "role": "candidate",
+          "score_global": 0.0,
+          "score_global_meaning": "probabilidad (%) de quedar entre los 3 mas parecidos en relieve, con pesos desconocidos y error de medicion",
+          "p_top_k_solo_pesos": 0.0,
+          "expected_rank": 7.8,
+          "rank_acceptability": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.2038,
+            0.7962,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "central_weights": {
+            "slope_463m": null,
+            "slope_1389m": null,
+            "slope_4167m": null,
+            "slope_12501m": null
+          },
+          "weighted_distance_deg": {
+            "median": 2.376,
+            "p05": 1.992,
+            "p95": 2.761
+          },
+          "scores": {
+            "relieve_multiescala_distancia_deg": {
+              "slope_463m": 3.111,
+              "slope_1389m": 2.604,
+              "slope_4167m": 2.136,
+              "slope_12501m": 1.688
+            },
+            "inercia_termica": null,
+            "mineralogia": null,
+            "visual": null
+          },
+          "scores_note": "Solo el relieve entra al ranking; termica, mineralogia y visual son descriptivas (decision del equipo).",
+          "strongest_matches": [
+            "pendiente a 12501m: distancia 1.69 grados (mediana 0.2 frente a 1.8)",
+            "pendiente a 4167m: distancia 2.14 grados (mediana 0.3 frente a 2.0)"
+          ],
+          "where_it_breaks_down": [
+            "Relieve: la escala menos parecida es 463m (distancia 3.11 grados; mediana 0.4 frente a 2.5).",
+            "Inercia termica (descriptiva, fuera del ranking): referencia 168.7 J m-2 K-1 s-1/2; candidato indice aparente 0.058 (1/K). No son comparables: la presion atmosferica cambia la inercia del mismo material.",
+            "Mineralogia (descriptiva): referencia ferrico 0.9, sulfato 0.9, arcilla 0.1, carbonato 0.0 (presencia 0-1 segun literatura). Sentinel-2 en el candidato: indice de oxido de hierro 3.00, arcilla/sulfato 1.34 (cocientes de reflectancia). Son magnitudes distintas; no se puntua.",
+            "Fisica del cuerpo: Marte tiene una atmosfera de ~0.6 % de la presion terrestre, gravedad ~0.38 g y mas radiacion en superficie; el transporte de polvo y el ambiente termico difieren."
+          ],
+          "mission_utility": "No demostrado para aterrizaje ni movilidad: esos requisitos en Marte estan definidos a escala de metros (InSight 2-84 m) y estas pendientes son a 463 m. Sirve como parecido de relieve a escala regional."
+        },
+        {
+          "robustness": "robusto",
+          "requirement_assessment": "no evaluable: requisitos de Marte definidos a escala de metros; pendiente medida a 463 m",
+          "site_id": "EARTH_CARACHI",
+          "name": "Cono y Salar Carachi Pampa (AR)",
+          "role": "candidate",
+          "score_global": 0.0,
+          "score_global_meaning": "probabilidad (%) de quedar entre los 3 mas parecidos en relieve, con pesos desconocidos y error de medicion",
+          "p_top_k_solo_pesos": 0.0,
+          "expected_rank": 9.32,
+          "rank_acceptability": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.6825,
+            0.3175,
+            0.0,
+            0.0
+          ],
+          "central_weights": {
+            "slope_463m": null,
+            "slope_1389m": null,
+            "slope_4167m": null,
+            "slope_12501m": null
+          },
+          "weighted_distance_deg": {
+            "median": 3.941,
+            "p05": 2.902,
+            "p95": 4.937
+          },
+          "scores": {
+            "relieve_multiescala_distancia_deg": {
+              "slope_463m": 5.777,
+              "slope_1389m": 4.604,
+              "slope_4167m": 3.318,
+              "slope_12501m": 2.076
+            },
+            "inercia_termica": null,
+            "mineralogia": null,
+            "visual": null
+          },
+          "scores_note": "Solo el relieve entra al ranking; termica, mineralogia y visual son descriptivas (decision del equipo).",
+          "strongest_matches": [
+            "pendiente a 12501m: distancia 2.08 grados (mediana 0.2 frente a 2.2)",
+            "pendiente a 4167m: distancia 3.32 grados (mediana 0.3 frente a 3.1)"
+          ],
+          "where_it_breaks_down": [
+            "Relieve: la escala menos parecida es 463m (distancia 5.78 grados; mediana 0.4 frente a 4.5).",
+            "Inercia termica (descriptiva, fuera del ranking): referencia 168.7 J m-2 K-1 s-1/2; candidato indice aparente 0.040 (1/K). No son comparables: la presion atmosferica cambia la inercia del mismo material. Ademas este sitio esta a ~3898 m: la oscilacion dia-noche se amplifica por la atmosfera delgada.",
+            "Mineralogia (descriptiva): referencia ferrico 0.9, sulfato 0.9, arcilla 0.1, carbonato 0.0 (presencia 0-1 segun literatura). Sentinel-2 en el candidato: indice de oxido de hierro 2.21, arcilla/sulfato 1.05 (cocientes de reflectancia). Son magnitudes distintas; no se puntua.",
+            "Fisica del cuerpo: Marte tiene una atmosfera de ~0.6 % de la presion terrestre, gravedad ~0.38 g y mas radiacion en superficie; el transporte de polvo y el ambiente termico difieren."
+          ],
+          "mission_utility": "No demostrado para aterrizaje ni movilidad: esos requisitos en Marte estan definidos a escala de metros (InSight 2-84 m) y estas pendientes son a 463 m. Sirve como parecido de relieve a escala regional."
+        },
+        {
+          "robustness": "robusto",
+          "requirement_assessment": "no evaluable: requisitos de Marte definidos a escala de metros; pendiente medida a 463 m",
+          "site_id": "EARTH_PIEDRA_POMEZ",
+          "name": "Campo de Piedra Pomez (AR)",
+          "role": "candidate",
+          "score_global": 0.0,
+          "score_global_meaning": "probabilidad (%) de quedar entre los 3 mas parecidos en relieve, con pesos desconocidos y error de medicion",
+          "p_top_k_solo_pesos": 0.0,
+          "expected_rank": 9.68,
+          "rank_acceptability": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.3175,
+            0.6825,
+            0.0,
+            0.0
+          ],
+          "central_weights": {
+            "slope_463m": null,
+            "slope_1389m": null,
+            "slope_4167m": null,
+            "slope_12501m": null
+          },
+          "weighted_distance_deg": {
+            "median": 3.981,
+            "p05": 2.83,
+            "p95": 5.141
+          },
+          "scores": {
+            "relieve_multiescala_distancia_deg": {
+              "slope_463m": 6.137,
+              "slope_1389m": 4.676,
+              "slope_4167m": 3.231,
+              "slope_12501m": 1.93
+            },
+            "inercia_termica": null,
+            "mineralogia": null,
+            "visual": null
+          },
+          "scores_note": "Solo el relieve entra al ranking; termica, mineralogia y visual son descriptivas (decision del equipo).",
+          "strongest_matches": [
+            "pendiente a 12501m: distancia 1.93 grados (mediana 0.2 frente a 2.1)",
+            "pendiente a 4167m: distancia 3.23 grados (mediana 0.3 frente a 3.1)"
+          ],
+          "where_it_breaks_down": [
+            "Relieve: la escala menos parecida es 463m (distancia 6.14 grados; mediana 0.4 frente a 4.9).",
+            "Inercia termica (descriptiva, fuera del ranking): referencia 168.7 J m-2 K-1 s-1/2; candidato indice aparente 0.046 (1/K). No son comparables: la presion atmosferica cambia la inercia del mismo material. Ademas este sitio esta a ~3883 m: la oscilacion dia-noche se amplifica por la atmosfera delgada.",
+            "Mineralogia (descriptiva): referencia ferrico 0.9, sulfato 0.9, arcilla 0.1, carbonato 0.0 (presencia 0-1 segun literatura). Sentinel-2 en el candidato: indice de oxido de hierro 1.64, arcilla/sulfato 0.93 (cocientes de reflectancia). Son magnitudes distintas; no se puntua.",
+            "Fisica del cuerpo: Marte tiene una atmosfera de ~0.6 % de la presion terrestre, gravedad ~0.38 g y mas radiacion en superficie; el transporte de polvo y el ambiente termico difieren."
+          ],
+          "mission_utility": "No demostrado para aterrizaje ni movilidad: esos requisitos en Marte estan definidos a escala de metros (InSight 2-84 m) y estas pendientes son a 463 m. Sirve como parecido de relieve a escala regional."
+        },
+        {
+          "robustness": "robusto",
+          "requirement_assessment": "no evaluable: requisitos de Marte definidos a escala de metros; pendiente medida a 463 m",
+          "site_id": "EARTH_ANTOFALLA",
+          "name": "Puna - Antofalla (AR)",
+          "role": "candidate",
+          "score_global": 0.0,
+          "score_global_meaning": "probabilidad (%) de quedar entre los 3 mas parecidos en relieve, con pesos desconocidos y error de medicion",
+          "p_top_k_solo_pesos": 0.0,
+          "expected_rank": 11.0,
+          "rank_acceptability": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          "central_weights": {
+            "slope_463m": null,
+            "slope_1389m": null,
+            "slope_4167m": null,
+            "slope_12501m": null
+          },
+          "weighted_distance_deg": {
+            "median": 4.655,
+            "p05": 3.546,
+            "p95": 5.573
+          },
+          "scores": {
+            "relieve_multiescala_distancia_deg": {
+              "slope_463m": 6.322,
+              "slope_1389m": 5.342,
+              "slope_4167m": 4.259,
+              "slope_12501m": 2.602
+            },
+            "inercia_termica": null,
+            "mineralogia": null,
+            "visual": null
+          },
+          "scores_note": "Solo el relieve entra al ranking; termica, mineralogia y visual son descriptivas (decision del equipo).",
+          "strongest_matches": [
+            "pendiente a 12501m: distancia 2.60 grados (mediana 0.2 frente a 2.8)",
+            "pendiente a 4167m: distancia 4.26 grados (mediana 0.3 frente a 4.2)"
+          ],
+          "where_it_breaks_down": [
+            "Relieve: la escala menos parecida es 463m (distancia 6.32 grados; mediana 0.4 frente a 5.7).",
+            "Inercia termica (descriptiva, fuera del ranking): referencia 168.7 J m-2 K-1 s-1/2; candidato indice aparente 0.035 (1/K). No son comparables: la presion atmosferica cambia la inercia del mismo material. Ademas este sitio esta a ~4218 m: la oscilacion dia-noche se amplifica por la atmosfera delgada.",
+            "Mineralogia (descriptiva): referencia ferrico 0.9, sulfato 0.9, arcilla 0.1, carbonato 0.0 (presencia 0-1 segun literatura). Sentinel-2 en el candidato: indice de oxido de hierro 3.16, arcilla/sulfato 1.13 (cocientes de reflectancia). Son magnitudes distintas; no se puntua.",
+            "Fisica del cuerpo: Marte tiene una atmosfera de ~0.6 % de la presion terrestre, gravedad ~0.38 g y mas radiacion en superficie; el transporte de polvo y el ambiente termico difieren."
+          ],
+          "mission_utility": "No demostrado para aterrizaje ni movilidad: esos requisitos en Marte estan definidos a escala de metros (InSight 2-84 m) y estas pendientes son a 463 m. Sirve como parecido de relieve a escala regional."
+        },
+        {
+          "robustness": "robusto",
+          "requirement_assessment": "no evaluable: requisitos de Marte definidos a escala de metros; pendiente medida a 463 m",
+          "site_id": "EARTH_ANDAHUA",
+          "name": "Valle de los Volcanes Andahua (PE)",
+          "role": "candidate",
+          "score_global": 0.0,
+          "score_global_meaning": "probabilidad (%) de quedar entre los 3 mas parecidos en relieve, con pesos desconocidos y error de medicion",
+          "p_top_k_solo_pesos": 0.0,
+          "expected_rank": 12.0,
+          "rank_acceptability": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "central_weights": {
+            "slope_463m": null,
+            "slope_1389m": null,
+            "slope_4167m": null,
+            "slope_12501m": null
+          },
+          "weighted_distance_deg": {
+            "median": 6.734,
+            "p05": 4.639,
+            "p95": 8.793
+          },
+          "scores": {
+            "relieve_multiescala_distancia_deg": {
+              "slope_463m": 10.507,
+              "slope_1389m": 8.091,
+              "slope_4167m": 5.38,
+              "slope_12501m": 2.991
+            },
+            "inercia_termica": null,
+            "mineralogia": null,
+            "visual": null
+          },
+          "scores_note": "Solo el relieve entra al ranking; termica, mineralogia y visual son descriptivas (decision del equipo).",
+          "strongest_matches": [
+            "pendiente a 12501m: distancia 2.99 grados (mediana 0.2 frente a 2.6)",
+            "pendiente a 4167m: distancia 5.38 grados (mediana 0.3 frente a 4.2)"
+          ],
+          "where_it_breaks_down": [
+            "Relieve: la escala menos parecida es 463m (distancia 10.51 grados; mediana 0.4 frente a 8.2).",
+            "Inercia termica (descriptiva, fuera del ranking): referencia 168.7 J m-2 K-1 s-1/2; candidato indice aparente 0.036 (1/K). No son comparables: la presion atmosferica cambia la inercia del mismo material. Ademas este sitio esta a ~4278 m: la oscilacion dia-noche se amplifica por la atmosfera delgada.",
+            "Mineralogia (descriptiva): referencia ferrico 0.9, sulfato 0.9, arcilla 0.1, carbonato 0.0 (presencia 0-1 segun literatura). Sentinel-2 en el candidato: indice de oxido de hierro 4.92, arcilla/sulfato 1.26 (cocientes de reflectancia). Son magnitudes distintas; no se puntua.",
+            "Fisica del cuerpo: Marte tiene una atmosfera de ~0.6 % de la presion terrestre, gravedad ~0.38 g y mas radiacion en superficie; el transporte de polvo y el ambiente termico difieren."
+          ],
+          "mission_utility": "No demostrado para aterrizaje ni movilidad: esos requisitos en Marte estan definidos a escala de metros (InSight 2-84 m) y estas pendientes son a 463 m. Sirve como parecido de relieve a escala regional."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+site_id,body,role,name,lat,lon
+MOON_A15,MOON,reference,Apollo 15 Hadley Rille,26.13,3.63
+MOON_A17,MOON,reference,Apollo 17 Taurus-Littrow,20.19,30.77
+MOON_TRANQ,MOON,reference,Mare Tranquillitatis (Apollo 11),0.67,23.47
+MOON_ARIS,MOON,reference,Aristarchus Plateau,24.0,-49.0
+MARS_JEZERO,MARS,reference,Jezero Crater,18.44,77.45
+MARS_GALE,MARS,reference,Gale Crater,-5.40,137.80
+MARS_MERID,MARS,reference,Meridiani Planum,-1.95,-5.53
+EARTH_TATACOA,EARTH,candidate,Desierto de la Tatacoa (CO),3.23,-75.17
+EARTH_GUAJIRA,EARTH,candidate,Alta Guajira interior arida (CO),12.05,-71.95
+EARTH_ANTOFALLA,EARTH,candidate,Puna - Antofalla (AR),-25.50,-67.60
+EARTH_SALINAS,EARTH,candidate,Salinas Grandes (AR),-23.633,-66.083
+EARTH_SECHURA,EARTH,candidate,Desierto de Sechura (PE),-5.80,-80.60
+EARTH_PINACATE,EARTH,candidate,Campo Volcanico El Pinacate (MX),31.8449,-113.3905
+EARTH_PAYUNIA,EARTH,candidate,La Payunia - Pampas Negras (AR),-36.3800,-69.2400
+EARTH_CARACHI,EARTH,candidate,Cono y Salar Carachi Pampa (AR),-26.3947,-67.4706
+EARTH_ANDAHUA,EARTH,candidate,Valle de los Volcanes Andahua (PE),-15.4200,-72.3300
+EARTH_PIEDRA_POMEZ,EARTH,candidate,Campo de Piedra Pomez (AR),-26.6170,-67.5170
+EARTH_NAMIB,EARTH,validation,Namib - Sossusvlei (NA),-24.73,15.28
+EARTH_SAHARA,EARTH,validation,Erg Chebbi - Sahara (MA),31.12,-3.97
+EARTH_GAIRDNER,EARTH,validation,Lake Gairdner (AU),-31.60,135.75

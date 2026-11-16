@@ -1,0 +1,328 @@
+{
+  "target_body": "MARS",
+  "excluded_by_aridity": [
+    "EARTH_TATACOA"
+  ],
+  "references": [
+    {
+      "ref_site_id": "MARS_JEZERO",
+      "ref_name": "Jezero Crater",
+      "ref_thermal_inertia": 253.3,
+      "top_k": [
+        {
+          "site_id": "EARTH_SECHURA",
+          "name": "Desierto de Sechura (PE)",
+          "score_global": 87.4,
+          "scores": {
+            "topografia": 93.7,
+            "rugosidad": 92.6,
+            "inercia_termica": 86.0,
+            "mineralogia": 77.4
+          },
+          "strongest_matches": [
+            "topografia (94%)",
+            "rugosidad (93%)"
+          ],
+          "where_it_breaks_down": [
+            "ninguna dimension < 60%",
+            "Marte tiene atmosfera muy tenue (~0.6% de la terrestre), gravedad 0.38 g y radiacion alta: la presion, el transporte eolico y el ambiente termico difieren de la Tierra."
+          ],
+          "mission_utility": "ensayo de aterrizaje y seleccion de zona segura; pruebas de movilidad y traccion de rovers"
+        },
+        {
+          "site_id": "EARTH_GUAJIRA",
+          "name": "Alta Guajira interior arida (CO)",
+          "score_global": 85.8,
+          "scores": {
+            "topografia": 95.8,
+            "rugosidad": 87.5,
+            "inercia_termica": 75.2,
+            "mineralogia": 84.8
+          },
+          "strongest_matches": [
+            "topografia (96%)",
+            "rugosidad (87%)"
+          ],
+          "where_it_breaks_down": [
+            "ninguna dimension < 60%",
+            "Marte tiene atmosfera muy tenue (~0.6% de la terrestre), gravedad 0.38 g y radiacion alta: la presion, el transporte eolico y el ambiente termico difieren de la Tierra."
+          ],
+          "mission_utility": "ensayo de aterrizaje y seleccion de zona segura; pruebas de movilidad y traccion de rovers"
+        },
+        {
+          "site_id": "EARTH_NAMIB",
+          "name": "Namib - Sossusvlei (NA)",
+          "score_global": 80.7,
+          "scores": {
+            "topografia": 97.8,
+            "rugosidad": 82.9,
+            "inercia_termica": 56.6,
+            "mineralogia": 85.6
+          },
+          "strongest_matches": [
+            "topografia (98%)",
+            "mineralogia (86%)"
+          ],
+          "where_it_breaks_down": [
+            "inercia_termica (57%)",
+            "Marte tiene atmosfera muy tenue (~0.6% de la terrestre), gravedad 0.38 g y radiacion alta: la presion, el transporte eolico y el ambiente termico difieren de la Tierra."
+          ],
+          "mission_utility": "ensayo de aterrizaje y seleccion de zona segura; calibracion de instrumentos y prospeccion de recursos (ISRU)"
+        },
+        {
+          "site_id": "EARTH_GAIRDNER",
+          "name": "Lake Gairdner (AU)",
+          "score_global": 79.3,
+          "scores": {
+            "topografia": 94.0,
+            "rugosidad": 81.8,
+            "inercia_termica": 69.7,
+            "mineralogia": 71.9
+          },
+          "strongest_matches": [
+            "topografia (94%)",
+            "rugosidad (82%)"
+          ],
+          "where_it_breaks_down": [
+            "ninguna dimension < 60%",
+            "Marte tiene atmosfera muy tenue (~0.6% de la terrestre), gravedad 0.38 g y radiacion alta: la presion, el transporte eolico y el ambiente termico difieren de la Tierra."
+          ],
+          "mission_utility": "ensayo de aterrizaje y seleccion de zona segura; pruebas de movilidad y traccion de rovers"
+        },
+        {
+          "site_id": "EARTH_SAHARA",
+          "name": "Erg Chebbi - Sahara (MA)",
+          "score_global": 77.7,
+          "scores": {
+            "topografia": 96.1,
+            "rugosidad": 83.9,
+            "inercia_termica": 47.0,
+            "mineralogia": 83.6
+          },
+          "strongest_matches": [
+            "topografia (96%)",
+            "rugosidad (84%)"
+          ],
+          "where_it_breaks_down": [
+            "inercia_termica (47%)",
+            "Marte tiene atmosfera muy tenue (~0.6% de la terrestre), gravedad 0.38 g y radiacion alta: la presion, el transporte eolico y el ambiente termico difieren de la Tierra."
+          ],
+          "mission_utility": "ensayo de aterrizaje y seleccion de zona segura; pruebas de movilidad y traccion de rovers"
+        }
+      ]
+    },
+    {
+      "ref_site_id": "MARS_GALE",
+      "ref_name": "Gale Crater",
+      "ref_thermal_inertia": 221.4,
+      "top_k": [
+        {
+          "site_id": "EARTH_SECHURA",
+          "name": "Desierto de Sechura (PE)",
+          "score_global": 79.2,
+          "scores": {
+            "topografia": 79.9,
+            "rugosidad": 81.1,
+            "inercia_termica": 95.1,
+            "mineralogia": 60.7
+          },
+          "strongest_matches": [
+            "inercia_termica (95%)",
+            "rugosidad (81%)"
+          ],
+          "where_it_breaks_down": [
+            "ninguna dimension < 60%",
+            "Marte tiene atmosfera muy tenue (~0.6% de la terrestre), gravedad 0.38 g y radiacion alta: la presion, el transporte eolico y el ambiente termico difieren de la Tierra."
+          ],
+          "mission_utility": "manejo de regolito/polvo y diseno termico de habitats; pruebas de movilidad y traccion de rovers"
+        },
+        {
+          "site_id": "EARTH_GUAJIRA",
+          "name": "Alta Guajira interior arida (CO)",
+          "score_global": 75.9,
+          "scores": {
+            "topografia": 81.9,
+            "rugosidad": 75.9,
+            "inercia_termica": 84.3,
+            "mineralogia": 61.5
+          },
+          "strongest_matches": [
+            "inercia_termica (84%)",
+            "topografia (82%)"
+          ],
+          "where_it_breaks_down": [
+            "ninguna dimension < 60%",
+            "Marte tiene atmosfera muy tenue (~0.6% de la terrestre), gravedad 0.38 g y radiacion alta: la presion, el transporte eolico y el ambiente termico difieren de la Tierra."
+          ],
+          "mission_utility": "manejo de regolito/polvo y diseno termico de habitats; ensayo de aterrizaje y seleccion de zona segura"
+        },
+        {
+          "site_id": "EARTH_ANTOFALLA",
+          "name": "Puna - Antofalla (AR)",
+          "score_global": 75.9,
+          "scores": {
+            "topografia": 96.1,
+            "rugosidad": 91.0,
+            "inercia_termica": 61.3,
+            "mineralogia": 55.2
+          },
+          "strongest_matches": [
+            "topografia (96%)",
+            "rugosidad (91%)"
+          ],
+          "where_it_breaks_down": [
+            "mineralogia (55%)",
+            "Marte tiene atmosfera muy tenue (~0.6% de la terrestre), gravedad 0.38 g y radiacion alta: la presion, el transporte eolico y el ambiente termico difieren de la Tierra."
+          ],
+          "mission_utility": "ensayo de aterrizaje y seleccion de zona segura; pruebas de movilidad y traccion de rovers"
+        },
+        {
+          "site_id": "EARTH_SALINAS",
+          "name": "Salinas Grandes (AR)",
+          "score_global": 72.5,
+          "scores": {
+            "topografia": 93.3,
+            "rugosidad": 83.9,
+            "inercia_termica": 61.9,
+            "mineralogia": 50.8
+          },
+          "strongest_matches": [
+            "topografia (93%)",
+            "rugosidad (84%)"
+          ],
+          "where_it_breaks_down": [
+            "mineralogia (51%)",
+            "Marte tiene atmosfera muy tenue (~0.6% de la terrestre), gravedad 0.38 g y radiacion alta: la presion, el transporte eolico y el ambiente termico difieren de la Tierra."
+          ],
+          "mission_utility": "ensayo de aterrizaje y seleccion de zona segura; pruebas de movilidad y traccion de rovers"
+        },
+        {
+          "site_id": "EARTH_SAHARA",
+          "name": "Erg Chebbi - Sahara (MA)",
+          "score_global": 71.1,
+          "scores": {
+            "topografia": 82.3,
+            "rugosidad": 72.3,
+            "inercia_termica": 56.2,
+            "mineralogia": 73.6
+          },
+          "strongest_matches": [
+            "topografia (82%)"
+          ],
+          "where_it_breaks_down": [
+            "inercia_termica (56%)",
+            "Marte tiene atmosfera muy tenue (~0.6% de la terrestre), gravedad 0.38 g y radiacion alta: la presion, el transporte eolico y el ambiente termico difieren de la Tierra."
+          ],
+          "mission_utility": "ensayo de aterrizaje y seleccion de zona segura"
+        }
+      ]
+    },
+    {
+      "ref_site_id": "MARS_MERID",
+      "ref_name": "Meridiani Planum",
+      "ref_thermal_inertia": 168.70000000000002,
+      "top_k": [
+        {
+          "site_id": "EARTH_GUAJIRA",
+          "name": "Alta Guajira interior arida (CO)",
+          "score_global": 84.3,
+          "scores": {
+            "topografia": 98.6,
+            "rugosidad": 87.7,
+            "inercia_termica": 99.4,
+            "mineralogia": 51.5
+          },
+          "strongest_matches": [
+            "inercia_termica (99%)",
+            "topografia (99%)"
+          ],
+          "where_it_breaks_down": [
+            "mineralogia (52%)",
+            "Marte tiene atmosfera muy tenue (~0.6% de la terrestre), gravedad 0.38 g y radiacion alta: la presion, el transporte eolico y el ambiente termico difieren de la Tierra."
+          ],
+          "mission_utility": "manejo de regolito/polvo y diseno termico de habitats; ensayo de aterrizaje y seleccion de zona segura"
+        },
+        {
+          "site_id": "EARTH_SECHURA",
+          "name": "Desierto de Sechura (PE)",
+          "score_global": 84.1,
+          "scores": {
+            "topografia": 99.4,
+            "rugosidad": 96.6,
+            "inercia_termica": 89.8,
+            "mineralogia": 50.7
+          },
+          "strongest_matches": [
+            "topografia (99%)",
+            "rugosidad (97%)"
+          ],
+          "where_it_breaks_down": [
+            "mineralogia (51%)",
+            "Marte tiene atmosfera muy tenue (~0.6% de la terrestre), gravedad 0.38 g y radiacion alta: la presion, el transporte eolico y el ambiente termico difieren de la Tierra."
+          ],
+          "mission_utility": "ensayo de aterrizaje y seleccion de zona segura; pruebas de movilidad y traccion de rovers"
+        },
+        {
+          "site_id": "EARTH_SAHARA",
+          "name": "Erg Chebbi - Sahara (MA)",
+          "score_global": 80.7,
+          "scores": {
+            "topografia": 98.2,
+            "rugosidad": 84.3,
+            "inercia_termica": 71.2,
+            "mineralogia": 69.1
+          },
+          "strongest_matches": [
+            "topografia (98%)",
+            "rugosidad (84%)"
+          ],
+          "where_it_breaks_down": [
+            "ninguna dimension < 60%",
+            "Marte tiene atmosfera muy tenue (~0.6% de la terrestre), gravedad 0.38 g y radiacion alta: la presion, el transporte eolico y el ambiente termico difieren de la Tierra."
+          ],
+          "mission_utility": "ensayo de aterrizaje y seleccion de zona segura; pruebas de movilidad y traccion de rovers"
+        },
+        {
+          "site_id": "EARTH_NAMIB",
+          "name": "Namib - Sossusvlei (NA)",
+          "score_global": 77.5,
+          "scores": {
+            "topografia": 96.6,
+            "rugosidad": 80.4,
+            "inercia_termica": 80.8,
+            "mineralogia": 52.3
+          },
+          "strongest_matches": [
+            "topografia (97%)",
+            "inercia_termica (81%)"
+          ],
+          "where_it_breaks_down": [
+            "mineralogia (52%)",
+            "Marte tiene atmosfera muy tenue (~0.6% de la terrestre), gravedad 0.38 g y radiacion alta: la presion, el transporte eolico y el ambiente termico difieren de la Tierra."
+          ],
+          "mission_utility": "ensayo de aterrizaje y seleccion de zona segura; manejo de regolito/polvo y diseno termico de habitats"
+        },
+        {
+          "site_id": "EARTH_SALINAS",
+          "name": "Salinas Grandes (AR)",
+          "score_global": 76.0,
+          "scores": {
+            "topografia": 87.2,
+            "rugosidad": 85.8,
+            "inercia_termica": 77.0,
+            "mineralogia": 54.1
+          },
+          "strongest_matches": [
+            "topografia (87%)",
+            "rugosidad (86%)"
+          ],
+          "where_it_breaks_down": [
+            "mineralogia (54%)",
+            "Marte tiene atmosfera muy tenue (~0.6% de la terrestre), gravedad 0.38 g y radiacion alta: la presion, el transporte eolico y el ambiente termico difieren de la Tierra."
+          ],
+          "mission_utility": "ensayo de aterrizaje y seleccion de zona segura; pruebas de movilidad y traccion de rovers"
+        }
+      ]
+    }
+  ]
+}
