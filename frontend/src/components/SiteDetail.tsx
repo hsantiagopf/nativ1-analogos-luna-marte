@@ -187,12 +187,12 @@ export function SiteDetail({ body, refRank, cand }: Props) {
             <section>
               <h3 className={`mb-3 ${HEADING}`}>{L({ en: 'About these places', es: 'Sobre estos lugares' })}</h3>
               <div className="grid gap-4 sm:grid-cols-2">
-                <div className="panel p-5">
+                <div className="panel lift p-5">
                   <p className="font-display text-base font-semibold text-white">{earthName}</p>
                   <p className="mt-0.5 text-xs text-slate-500">{L({ en: 'On Earth', es: 'En la Tierra' })}</p>
                   <p className="mt-3 text-sm leading-relaxed text-slate-300">{ec && L(ec.description)}</p>
                 </div>
-                <div className="panel p-5">
+                <div className="panel lift p-5">
                   <p className="font-display text-base font-semibold text-white">{refName}</p>
                   <p className="mt-0.5 text-xs" style={{ color: copy.accent }}>{L(copy.zoneWord)}</p>
                   <p className="mt-3 text-sm leading-relaxed text-slate-300">{rc && L(rc.description)}</p>

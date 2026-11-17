@@ -19,7 +19,7 @@ export function HowItWorks() {
       </p>
       <div className="mt-12 grid gap-4 sm:grid-cols-3">
         {STEPS.map(({ Icon, t, d }) => (
-          <div key={t.en} className="panel p-6 transition-colors hover:bg-white/[0.06]">
+          <div key={t.en} className="panel lift p-6">
             <Icon size={22} className="mb-4 text-slate-300" />
             <h2 className="font-display text-base font-semibold text-white">{L(t)}</h2>
             <p className="mt-2 text-sm leading-relaxed text-slate-400">{L(d)}</p>

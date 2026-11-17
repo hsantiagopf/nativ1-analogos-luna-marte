@@ -89,7 +89,7 @@ export function SourcesPage() {
       </p>
       <div className="mt-12 space-y-6">
         {BLOCKS.map(({ Icon, title, intro, items }) => (
-          <section key={title.en} className="panel p-6 sm:p-8">
+          <section key={title.en} className="panel lift p-6 sm:p-8">
             <div className="flex items-center gap-3">
               <Icon size={20} className="text-slate-300" />
               <h2 className="font-display text-lg font-semibold text-white">{L(title)}</h2>

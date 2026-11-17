@@ -12,13 +12,13 @@ export { Logo };
 function LangSwitch() {
   const lang = useLang();
   return (
-    <div role="group" aria-label="Language / Idioma" className="flex rounded-full border border-white/15 bg-white/[0.05] p-0.5 text-[11px] font-medium shadow-[inset_0_1px_0_rgba(255,255,255,0.08)]">
+    <div role="group" aria-label="Language / Idioma" className="flex rounded-full border border-white/10 p-0.5 text-[11px] font-medium">
       {(['en', 'es'] as const).map((l) => (
         <button
           key={l}
           onClick={() => setLang(l)}
           aria-pressed={lang === l}
-          className={`rounded-full px-2.5 py-1 uppercase tracking-wide transition-colors ${lang === l ? 'bg-white/20 text-white shadow-[inset_0_1px_0_rgba(255,255,255,0.18)]' : 'text-slate-400 hover:text-white'}`}
+          className={`rounded-full px-2.5 py-1 uppercase tracking-wide transition-colors ${lang === l ? 'bg-white/15 text-white' : 'text-slate-400 hover:text-white'}`}
         >
           {l}
         </button>
@@ -32,9 +32,9 @@ interface Props { route: Route; onMenu?: () => void }
 export function TopNav({ route, onMenu }: Props) {
   const L = useL();
   const tab = (active: boolean) =>
-    `relative h-10 shrink-0 whitespace-nowrap px-2 sm:px-5 flex items-center text-xs sm:text-sm font-medium tracking-wide transition-colors ${active ? 'text-white' : 'text-slate-400 hover:text-white'}`;
+    `relative h-10 shrink-0 whitespace-nowrap rounded-lg px-2 sm:px-5 flex items-center text-xs sm:text-sm font-medium tracking-wide transition-colors hover:bg-white/[0.04] ${active ? 'text-white' : 'text-slate-400 hover:text-white'}`;
   return (
-    <header className="glass-bar sticky top-0 z-30 flex shrink-0 flex-wrap items-center gap-x-1 px-3 py-2 sm:h-[112px] sm:flex-nowrap sm:px-5 sm:py-0">
+    <header className="relative z-30 flex shrink-0 flex-wrap items-center gap-x-1 border-b border-white/10 bg-[#07090e]/80 px-3 py-2 shadow-[0_12px_32px_-18px_rgba(0,0,0,0.9)] backdrop-blur sm:h-[112px] sm:flex-nowrap sm:px-5 sm:py-0">
       {onMenu && (
         <button onClick={onMenu} aria-label={L({ en: 'Open areas menu', es: 'Abrir menú de zonas' })} className="mr-1 rounded-lg p-2 text-slate-300 hover:bg-white/5 lg:hidden">
           <Menu size={20} />

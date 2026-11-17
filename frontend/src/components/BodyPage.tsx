@@ -1,5 +1,5 @@
 import { Suspense, useEffect, useRef, useState } from 'react';
-import { ArrowRight, Sigma } from 'lucide-react';
+import { ArrowRight } from 'lucide-react';
 import type { AllRankingsData, PlanetaryBody } from '../types';
 import { BODY_COPY, EARTH_COPY, REF_COPY } from '../data/copy';
 import { useL } from '../lib/i18n';
@@ -33,7 +33,7 @@ export function BodyPage({ data, body, route }: Props) {
       <div className="relative flex min-h-0 flex-1">
         {drawer && <div className="absolute inset-0 z-20 bg-black/60 lg:hidden" onClick={() => setDrawer(false)} />}
         <aside className={`absolute inset-y-0 left-0 z-30 w-[300px] border-r border-white/10 bg-[#07090e]/70 backdrop-blur-md transition-transform lg:static lg:translate-x-0 ${drawer ? 'translate-x-0' : '-translate-x-full'}`}>
-          <Sidebar data={data} body={body} route={route} onNavigate={() => setDrawer(false)} />
+          <Sidebar data={data} body={body} route={route} onNavigate={() => setDrawer(false)} onMath={() => { setMathOpen(true); setDrawer(false); }} />
         </aside>
 
         <main className="relative min-w-0 flex-1">
@@ -101,12 +101,6 @@ export function BodyPage({ data, body, route }: Props) {
         </main>
       </div>
 
-      <button
-        onClick={() => setMathOpen(true)}
-        className="fixed bottom-3 right-3 z-30 flex items-center gap-1.5 rounded-full border border-white/10 bg-[#07090e]/80 px-3 py-1.5 text-[11px] text-slate-400 backdrop-blur transition-colors hover:text-slate-100"
-      >
-        <Sigma size={12} /> {L({ en: 'View mathematical backup', es: 'Ver respaldo matemático' })}
-      </button>
       {mathOpen && <MathModal data={data} body={body} refRank={refRank} onClose={() => setMathOpen(false)} />}
     </div>
   );

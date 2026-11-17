@@ -39,6 +39,8 @@ export default function App() {
   return (
     <div className="relative min-h-screen">
       <Stars />
+      <div aria-hidden className="vignette" />
+      <div aria-hidden className="film-grain" />
       <div key={pageKey} className="page-enter relative z-10">
         {wash && <div aria-hidden className="page-wash pointer-events-none fixed inset-0 z-0" style={{ background: `radial-gradient(ellipse at 50% 45%, ${wash}38, transparent 65%)` }} />}
         {content}
